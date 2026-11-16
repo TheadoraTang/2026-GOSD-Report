@@ -23,3 +23,5 @@
 ## 精要版
 
 精要版独立维护于 editions/insights/。进入该目录前读取其 AGENTS.md、宪法补充、主张地图与最新评审；精要版的新章节取舍不回写为旧版本的历史批准内容。PDF 禁入规则继续适用。
+
+2026-11-16新增COSSI／Community发行管理，入口为`editions/insights/distributions/README.md`。两版共用研究正文，语言与发行身份分别管理；COSSI是版名、CCOSI是机构缩写。英文版尚未完成，不得把筹备配置当作英文成果。后续修改发行配置时运行其`check_registry.py`。

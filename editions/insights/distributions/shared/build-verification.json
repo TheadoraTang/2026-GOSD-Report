@@ -1,0 +1,59 @@
+{
+  "verified_on": "2026-11-16",
+  "scope": "两条中文构建路线与已获批PDF逐页比对；不重新核验报告实证结论。",
+  "runtime": {
+    "PyMuPDF": "1.26.6",
+    "fontTools": "4.61.1"
+  },
+  "results": {
+    "cossi": {
+      "distribution": "cossi",
+      "approved_sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+      "rebuilt_sha256": "bba99a4e79f9c4ab7aad007e01e1db29272f01157ad64f0bb13fa6c1ed09ca12",
+      "dpi": 72,
+      "page_count_expected": 142,
+      "page_count_actual": 142,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "bookmarks_identical": true,
+      "page_labels_identical": true,
+      "links_identical": true,
+      "artifact_byte_identical": false,
+      "approved_attachments": [
+        "Baseline_GOSD_2026_Full_Print_v1.4_Assembly_Source.zip",
+        "GOSD_2026_Full_Print_v1.5_Assembly_Source.zip",
+        "GOSD_2026_v1.6_Cover_Alignment_Source.zip"
+      ],
+      "rebuilt_attachments": [
+        "Baseline_GOSD_2026_Full_Print_v1.4_Assembly_Source.zip",
+        "COSSI_Rebuilt_Assembly_Record.json"
+      ],
+      "attachment_scope": "Rebuilt COSSI preserves the historical baseline source and includes its new assembly record; it does not impersonate the approved artifact attachment bundle.",
+      "passed": true
+    },
+    "community": {
+      "distribution": "community",
+      "approved_sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+      "rebuilt_sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+      "dpi": 72,
+      "page_count_expected": 140,
+      "page_count_actual": 140,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "bookmarks_identical": true,
+      "page_labels_identical": true,
+      "links_identical": true,
+      "artifact_byte_identical": true,
+      "approved_attachments": [
+        "GOSD_2026_Full_Print_v1.4_Assembly_Source.zip"
+      ],
+      "rebuilt_attachments": [
+        "GOSD_2026_Full_Print_v1.4_Assembly_Source.zip"
+      ],
+      "attachment_scope": "Community is an exact copy of the approved v1.4 PDF, including its historical attachments.",
+      "passed": true
+    }
+  },
+  "source_inputs": "source/input-materials.json",
+  "verifier": "source/verify.py"
+}

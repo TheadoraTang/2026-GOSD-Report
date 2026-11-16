@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "report_year": 2026,
+  "content_scope": "essential",
+  "distribution_id": "community",
+  "display_name": {
+    "zh": "Community 社区版",
+    "en": "Community Edition"
+  },
+  "institution_abbreviation": "CCOSI",
+  "logo_order": [
+    "x-lab",
+    "singularity",
+    "ccosi",
+    "kaiyuanshe"
+  ],
+  "pdf_in_repository": false,
+  "language": "en",
+  "source_language": "zh-CN",
+  "source_content_id": "gosd-2026-essential-body-v1.4",
+  "source_distribution_config": "../zh-CN/edition.json",
+  "translation_status": "planned",
+  "editorial_status": "not_started",
+  "publication_status": "not_scheduled",
+  "publication_date": null,
+  "artifact_version": null,
+  "approved_artifact": null,
+  "physical_pages": null,
+  "reviewed_by": null,
+  "reviewed_on": null
+}

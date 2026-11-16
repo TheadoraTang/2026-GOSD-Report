@@ -1,0 +1,59 @@
+{
+  "content_id": "gosd-2026-essential-body-v1.4",
+  "content_scope": "essential",
+  "source_language": "zh-CN",
+  "main_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "printed_page_range": [
+    1,
+    118
+  ],
+  "body_pages": 118,
+  "chapter_starts": {
+    "01": 1,
+    "02": 13,
+    "03": 35,
+    "04": 59,
+    "05": 75,
+    "06": 89,
+    "appendix": 97,
+    "acknowledgements": 117
+  },
+  "approved_pdf_sources": {
+    "cossi": {
+      "version": "1.6",
+      "filename": "GOSD_2026_Essential_Full_Print_v1.6.pdf",
+      "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+      "physical_range": [
+        23,
+        140
+      ]
+    },
+    "community": {
+      "version": "1.4",
+      "filename": "GOSD_2026_Essential_Full_Print_v1.4.pdf",
+      "sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+      "physical_range": [
+        21,
+        138
+      ]
+    }
+  },
+  "equality_verification": {
+    "checked_on": "2026-11-16",
+    "text_pages": 118,
+    "content_stream_pages": 118,
+    "raster_pages": 118,
+    "raster_dpi": 36,
+    "raster_engine": "PyMuPDF 1.26.6",
+    "detail": "body-equivalence.json"
+  },
+  "source_archive": {
+    "path": "../../../../reports/print-v1.1/README.md",
+    "status": "historical_v1.1_not_exact_current_full_source"
+  },
+  "maintenance_rule": "两条发行路线共用正文、数据、图表与证据；新增内容需新content_id并记录两版同步状态。",
+  "evidence_status": "继承原报告，编辑接受与一致性验证不等于全部事实重新核验。"
+}

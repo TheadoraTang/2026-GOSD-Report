@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "management_version": "1.0.0",
+  "registered_on": "2026-11-16",
+  "worktree_edition_id": "insights",
+  "content_scope": "essential",
+  "report_year": 2026,
+  "source_repository_commit": "019af2861a61fded40e56e10340392198cb06815",
+  "research_baseline_commit": "fff392e957bab9fb6d89d49dea712af47484efaa",
+  "shared_content_id": "gosd-2026-essential-body-v1.4",
+  "shared_content_manifest": "shared/content-baseline.json",
+  "main_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "naming": {
+    "distribution_label": "COSSI",
+    "distribution_id": "cossi",
+    "institution_abbreviation": "CCOSI",
+    "institution_name_zh": "中国科协联合国咨商开源创新专委会",
+    "institution_name_en": "CAST UN Consultative Committee on Open Source Innovation",
+    "rule": "发行标签与机构缩写分别维护，禁止全局替换。"
+  },
+  "outputs": {
+    "pdf": {
+      "priority": "review_first",
+      "in_repository": false
+    },
+    "web": {
+      "status": "not_updated_by_this_change"
+    }
+  },
+  "distributions": [
+    {
+      "id": "cossi",
+      "display_name": {
+        "zh": "COSSI 版",
+        "en": "COSSI Edition"
+      },
+      "languages": {
+        "zh-CN": {
+          "status": "accepted_baseline",
+          "config": "cossi/zh-CN/edition.json"
+        },
+        "en": {
+          "status": "planned",
+          "config": "cossi/en/edition.json"
+        }
+      }
+    },
+    {
+      "id": "community",
+      "display_name": {
+        "zh": "Community 社区版",
+        "en": "Community Edition"
+      },
+      "languages": {
+        "zh-CN": {
+          "status": "accepted_baseline",
+          "config": "community/zh-CN/edition.json"
+        },
+        "en": {
+          "status": "planned",
+          "config": "community/en/edition.json"
+        }
+      }
+    }
+  ],
+  "review": "../reviews/2026-11-16-distribution-baselines.md"
+}

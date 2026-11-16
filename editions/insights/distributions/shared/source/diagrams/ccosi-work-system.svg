@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="493pt" height="300pt" viewBox="0 0 493 300">
+<title>开源创新工作的协同框架</title>
+<desc>依据用户提供《中国科协联合国咨商开源创新专委会介绍(1).pdf》第2页工作体系图重绘。所有文字均为可编辑文本。</desc>
+<rect id="canvas" x="0" y="0" width="493" height="300" fill="#FFFFFF"/>
+<rect id="practice_header" x="0" y="0" width="330" height="19" fill="#007F85"/>
+<text id="practice_title" x="165" y="13.1" font-family="Noto Sans CJK SC" font-size="10.4" font-weight="700" fill="#FFFFFF" text-anchor="middle">实践与传播</text>
+<rect id="practice_cell_0" x="0.0" y="22" width="63.6" height="23" fill="#E6F2F3"/>
+<text id="practice_item_0" x="31.8" y="37" font-family="Noto Sans CJK SC" font-size="8.8" font-weight="500" fill="#007F85" text-anchor="middle">智库报告</text>
+<rect id="practice_cell_1" x="66.6" y="22" width="63.6" height="23" fill="#E6F2F3"/>
+<text id="practice_item_1" x="98.39999999999999" y="37" font-family="Noto Sans CJK SC" font-size="8.8" font-weight="500" fill="#007F85" text-anchor="middle">学术大会</text>
+<rect id="practice_cell_2" x="133.2" y="22" width="63.6" height="23" fill="#E6F2F3"/>
+<text id="practice_item_2" x="165.0" y="37" font-family="Noto Sans CJK SC" font-size="8.8" font-weight="500" fill="#007F85" text-anchor="middle">开源案例</text>
+<rect id="practice_cell_3" x="199.79999999999998" y="22" width="63.6" height="23" fill="#E6F2F3"/>
+<text id="practice_item_3" x="231.6" y="37" font-family="Noto Sans CJK SC" font-size="8.8" font-weight="500" fill="#007F85" text-anchor="middle">开源科普</text>
+<rect id="practice_cell_4" x="266.4" y="22" width="63.6" height="23" fill="#E6F2F3"/>
+<text id="practice_item_4" x="298.2" y="37" font-family="Noto Sans CJK SC" font-size="8.8" font-weight="500" fill="#007F85" text-anchor="middle">开源大赛</text>
+<rect id="up_arrow_stem_0" x="19.5" y="56" width="6" height="7.5" fill="#6EB8BA"/>
+<polygon id="up_arrow_head_0" points="15,56 30,56 22.5,49" fill="#6EB8BA"/>
+<rect id="up_arrow_stem_1" x="312.5" y="56" width="6" height="7.5" fill="#6EB8BA"/>
+<polygon id="up_arrow_head_1" points="308,56 323,56 315.5,49" fill="#6EB8BA"/>
+<text id="technical_support" x="82" y="59.5" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="500" fill="#102B50" text-anchor="middle">技术支撑</text>
+<text id="governance_guidance" x="248" y="59.5" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="500" fill="#102B50" text-anchor="middle">治理引导</text>
+<rect id="innovation_header" x="0" y="69" width="162" height="21" fill="#007F85"/>
+<text id="innovation_title" x="81" y="83.2" font-family="Noto Sans CJK SC" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">开源创新组件</text>
+<rect id="innovation_body" x="0" y="94" width="162" height="202" fill="#F1F7F9"/>
+<line id="innovation_rule_1" x1="9" y1="158" x2="153" y2="158" stroke="#BEDCDF" stroke-width="0.55"/>
+<line id="innovation_rule_2" x1="9" y1="223" x2="153" y2="223" stroke="#BEDCDF" stroke-width="0.55"/>
+<rect id="governance_header" x="168" y="69" width="162" height="21" fill="#007F85"/>
+<text id="governance_title" x="249" y="83.2" font-family="Noto Sans CJK SC" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">开源治理要素</text>
+<rect id="governance_body" x="168" y="94" width="162" height="202" fill="#F1F7F9"/>
+<line id="governance_rule_1" x1="177" y1="158" x2="321" y2="158" stroke="#BEDCDF" stroke-width="0.55"/>
+<line id="governance_rule_2" x1="177" y1="223" x2="321" y2="223" stroke="#BEDCDF" stroke-width="0.55"/>
+<text id="software_heading" x="81" y="108" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">开源软件</text>
+<text id="software_item_0" x="42" y="126" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">代码开源</text>
+<text id="software_item_1" x="122" y="126" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">文档开源</text>
+<text id="software_item_2" x="42" y="144" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开放过程</text>
+<text id="software_item_3" x="122" y="144" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开放治理</text>
+<text id="ai_heading" x="81" y="173" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">开源 AI</text>
+<text id="ai_item_0" x="42" y="191" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">权重开放</text>
+<text id="ai_item_1" x="122" y="191" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">架构开放</text>
+<text id="ai_item_2" x="42" y="209" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">工具开源</text>
+<text id="ai_item_3" x="122" y="209" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">数据开放</text>
+<text id="hardware_heading" x="81" y="238" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">开源硬件</text>
+<text id="hardware_item_0" x="42" y="256" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">设计开源</text>
+<text id="hardware_item_1" x="122" y="256" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">制造开放</text>
+<text id="hardware_item_2" x="42" y="274" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">协议开源</text>
+<text id="hardware_item_3" x="122" y="274" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">接口开放</text>
+<text id="policy_heading" x="249" y="108" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">政策治理</text>
+<text id="policy_item_0" x="210" y="126" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开源合规</text>
+<text id="policy_item_1" x="290" y="126" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开源回馈</text>
+<text id="policy_item_2" x="210" y="144" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">知识产权</text>
+<text id="policy_item_3" x="290" y="144" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">数字主权</text>
+<text id="technology_heading" x="249" y="173" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">技术治理</text>
+<text id="technology_item_0" x="210" y="191" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">基础软件</text>
+<text id="technology_item_1" x="290" y="191" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">云计算</text>
+<text id="technology_item_2" x="210" y="209" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">大数据</text>
+<text id="technology_item_3" x="290" y="209" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">人工智能</text>
+<text id="standards_heading" x="249" y="238" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">标准治理</text>
+<text id="standards_item_0" x="210" y="256" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">要素标准</text>
+<text id="standards_item_1" x="290" y="256" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">流程标准</text>
+<text id="standards_item_2" x="249" y="277" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开源文化培育</text>
+<rect id="evaluation_header" x="343" y="0" width="150" height="19" fill="#102B50"/>
+<text id="evaluation_title" x="418" y="13.1" font-family="Noto Sans CJK SC" font-size="10.4" font-weight="700" fill="#FFFFFF" text-anchor="middle">开源发展评价</text>
+<rect id="sustainability_panel" x="343" y="22" width="150" height="73" fill="#E6F2F3"/>
+<text id="sustainability_heading" x="418" y="37" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">可持续发展</text>
+<rect id="subjects_panel" x="343" y="101" width="150" height="53" fill="#F1F7F9"/>
+<text id="subjects_heading" x="418" y="116" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">评价主体</text>
+<rect id="indicators_panel" x="343" y="160" width="150" height="62" fill="#F1F7F9"/>
+<text id="indicators_heading" x="418" y="175" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">评价指标</text>
+<rect id="infrastructure_panel" x="343" y="228" width="150" height="68" fill="#F1F7F9"/>
+<text id="infrastructure_heading" x="418" y="243" font-family="Noto Sans CJK SC" font-size="9.6" font-weight="700" fill="#102B50" text-anchor="middle">评价设施</text>
+<text id="sustainability_item_0" x="380" y="55" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="400" fill="#102B50" text-anchor="middle">资金支持稳定性</text>
+<text id="sustainability_item_1" x="456" y="55" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="400" fill="#102B50" text-anchor="middle">政策支持一致性</text>
+<text id="sustainability_item_2" x="380" y="76" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="400" fill="#102B50" text-anchor="middle">资源分配合理性</text>
+<text id="sustainability_item_3" x="456" y="76" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="400" fill="#102B50" text-anchor="middle">人才培养系统性</text>
+<text id="subject_item_0" x="368" y="139" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">项目</text>
+<text id="subject_item_1" x="418" y="139" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">企业</text>
+<text id="subject_item_2" x="468" y="139" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">开发者</text>
+<text id="indicator_item_0" x="380" y="193" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">活跃度</text>
+<text id="indicator_item_1" x="456" y="193" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">贡献度</text>
+<text id="indicator_item_2" x="380" y="211" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">影响力</text>
+<text id="indicator_item_3" x="456" y="211" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">成本效益</text>
+<text id="infrastructure_item_0" x="380" y="261" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">专家智库</text>
+<text id="infrastructure_item_1" x="456" y="261" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">数据</text>
+<text id="infrastructure_item_2" x="380" y="279" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">方法流程</text>
+<text id="infrastructure_item_3" x="456" y="279" font-family="Noto Sans CJK SC" font-size="8.6" font-weight="400" fill="#102B50" text-anchor="middle">工具</text>
+<rect id="evaluation_arrow_stem_0" x="335" y="31.4" width="6" height="5.2" fill="#6EB8BA"/>
+<polygon id="evaluation_arrow_head_0" points="330,34 336,29 336,39" fill="#6EB8BA"/>
+<rect id="evaluation_arrow_stem_1" x="335" y="267.4" width="6" height="5.2" fill="#6EB8BA"/>
+<polygon id="evaluation_arrow_head_1" points="330,270 336,265 336,275" fill="#6EB8BA"/>
+<text id="process_evaluation_char_0" x="336.5" y="119.0" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">开</text>
+<text id="process_evaluation_char_1" x="336.5" y="128.1" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">源</text>
+<text id="process_evaluation_char_2" x="336.5" y="137.2" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">创</text>
+<text id="process_evaluation_char_3" x="336.5" y="146.3" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">新</text>
+<text id="process_evaluation_char_4" x="336.5" y="155.4" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">全</text>
+<text id="process_evaluation_char_5" x="336.5" y="164.5" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">流</text>
+<text id="process_evaluation_char_6" x="336.5" y="173.6" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">程</text>
+<text id="process_evaluation_char_7" x="336.5" y="182.7" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">评</text>
+<text id="process_evaluation_char_8" x="336.5" y="191.8" font-family="Noto Sans CJK SC" font-size="8.2" font-weight="500" fill="#47717D" text-anchor="middle">价</text>
+</svg>

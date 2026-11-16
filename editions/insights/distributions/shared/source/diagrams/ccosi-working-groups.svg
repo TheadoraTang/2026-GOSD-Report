@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184pt" height="170pt" viewBox="360 498 184 170">
+<line x1="453" y1="584" x2="453" y2="532" stroke="#9EC8CC" stroke-width="1.1"/>
+<line x1="453" y1="584" x2="397" y2="634" stroke="#9EC8CC" stroke-width="1.1"/>
+<line x1="453" y1="584" x2="509" y2="634" stroke="#9EC8CC" stroke-width="1.1"/>
+<circle cx="453" cy="584" r="24" fill="#007F85" stroke="none" stroke-width="0.7"/>
+<text x="453.0" y="587.8" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="10" font-weight="700" fill="#FFFFFF">秘书处</text>
+<circle cx="453" cy="532" r="29" fill="#EBF5FA" stroke="#A5C9CD" stroke-width="0.7"/>
+<text x="453.0" y="529.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">智库与政策</text>
+<text x="453.0" y="541.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">研究组</text>
+<circle cx="397" cy="634" r="29" fill="#EDF5EF" stroke="#A5C9CD" stroke-width="0.7"/>
+<text x="397.0" y="631.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">数字公共品</text>
+<text x="397.0" y="643.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">推进组</text>
+<circle cx="509" cy="634" r="29" fill="#E6F4F3" stroke="#A5C9CD" stroke-width="0.7"/>
+<text x="509.0" y="631.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">标准与国际</text>
+<text x="509.0" y="643.304" text-anchor="middle" font-family="Noto Sans CJK SC" font-size="8.3" font-weight="700" fill="#102B50">合作组</text>
+</svg>

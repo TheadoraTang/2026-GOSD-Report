@@ -13,3 +13,7 @@
 9. PDF 先评审；PDF、字体、私有附件、第三方报告原件、压缩包及构建输出不入库。封面依赖外部母稿时使用路径参数和 SHA-256 检查，不将 PDF 改后缀或编码嵌入源码。
 10. 每次交付明确版本、变更、证据、待核查项和评审问题；新增数据须同步检查图表、正文、主张、摘要与建议。第一章单设聊天；打样顺序依现行宪法。
 11. 提交前运行本目录 sources 检查与根目录品牌检查，核查暂存区。未经请求不部署网站，不创建定时任务。
+
+## 当前全文发行基线（2026-11-16）
+
+当前全文入口为`distributions/registry.json`：COSSI中文v1.6（142页）与此前四Logo的Community中文v1.4（140页）由作者指定为两条发行基线，共用正文印刷页1—118。COSSI版名与机构缩写CCOSI分开维护，英文版为planned。`current.json`中旧模块字段收在`historical_modular_snapshot`，保留原历史评审状态；当前全文使用`current_full_prints`。进入发行目录先读该目录AGENTS，变更后额外运行`python editions/insights/distributions/check_registry.py`。

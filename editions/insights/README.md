@@ -1,6 +1,18 @@
 # 2026 全球开源发展报告·精要版
 
-管理基线 v1.0 · 2026-11-09；前置稿 v0.6 · 9 页；第一章 v0.5 · 11 页。正式发布日期尚未确定。
+管理基线 v1.1 · 2026-11-16。当前中文全文：COSSI v1.6（142页）与Community v1.4（140页）；正式发布日期尚未确定。
+
+## 当前全文与发行版本
+
+[双版本发行入口](distributions/README.md)将精要版内容、发行身份、语言和输出格式分别管理。COSSI为中国科协牵头的版本；Community固定为此前X-lab、奇点智能研究院、CCOSI、开源社四Logo共建版本。两版正文第1—118页共用，前置内容分别维护；两个英文入口均为筹备中。
+
+[COSSI中文基线](distributions/cossi/zh-CN/README.md) · [Community中文基线](distributions/community/zh-CN/README.md) · [发行注册表](distributions/registry.json) · [统一构建](distributions/shared/source/README.md) · [最新决定](reviews/2026-11-16-distribution-baselines.md)
+
+`current.json`以`distribution_registry`和`current_full_prints`登记全文现状。11月9日前置v0.6、第一章v0.5等原模块字段原样保留在`historical_modular_snapshot`，不再与当前全文混用。`edition_id=insights`继续表示精要版工作区；新增`distribution_id`表达发行身份。
+
+## 原有研究与模块归档（2026-11-09）
+
+以下记录保留当时的计划、证据状态和评审历史；约100页是当时编辑目标，不是当前两份全文的实际页数。
 
 本目录独立管理约 100 页精要版的研究、编辑、证据和评审，以 2025 版与 2026 版为核心材料，形成贯穿全书的人工智能时代叙事。首要读者是政府与国际组织决策者，兼顾产业、基金会、研究机构与社区。
 

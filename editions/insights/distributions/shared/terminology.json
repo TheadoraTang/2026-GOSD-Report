@@ -1,0 +1,56 @@
+{
+  "status": "seed_from_existing_report_names",
+  "scope": "translation_reference_not_completed_english_report",
+  "terms": [
+    {
+      "id": "GOSD",
+      "zh": "全球开源发展报告",
+      "en": "Global Open Source Development Report",
+      "source": "获批中英报告名称"
+    },
+    {
+      "id": "OSDGs",
+      "zh": "开源发展目标",
+      "en": "Open Source Development Goals",
+      "source": "仓库获批品牌基线"
+    },
+    {
+      "id": "CCOSI",
+      "zh": "中国科协联合国咨商开源创新专委会",
+      "en": "CAST UN Consultative Committee on Open Source Innovation",
+      "source": "用户提供最新版英文介绍及获批中文前置页"
+    },
+    {
+      "id": "cossi_edition",
+      "zh": "COSSI 版",
+      "en": "COSSI Edition",
+      "source": "2026-11-16作者指定发行标签",
+      "note": "不是机构缩写"
+    },
+    {
+      "id": "community_edition",
+      "zh": "Community 社区版",
+      "en": "Community Edition",
+      "source": "2026-11-16作者指定发行标签"
+    },
+    {
+      "id": "essential",
+      "zh": "精要版",
+      "en": "Essential Edition",
+      "source": "获批封面"
+    }
+  ],
+  "pending": [
+    {
+      "topic": "shared_acknowledgements_english_committee_name",
+      "old": "CAST Advisory Committee on Open Source Innovation",
+      "reference": "CAST UN Consultative Committee on Open Source Innovation",
+      "action": "英文转写时按最新介绍核对统一，冻结中文PDF不静默修改。"
+    },
+    {
+      "topic": "secretary_general_affiliation_en",
+      "source_zh": "华东师范大学数据学院",
+      "action": "英文版正式译名待核对，不新增职务或头衔。"
+    }
+  ]
+}

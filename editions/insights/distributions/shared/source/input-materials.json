@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "community_baseline": {
+    "filename": "GOSD_2026_Essential_Full_Print_v1.4.pdf",
+    "sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+    "page_count": 140
+  },
+  "approved_artifacts": {
+    "community": {
+      "language": "zh-CN",
+      "version": "v1.4",
+      "sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+      "pages": 140
+    },
+    "cossi": {
+      "language": "zh-CN",
+      "version": "v1.6",
+      "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+      "pages": 142
+    }
+  },
+  "external_assets": [
+    {
+      "name": "cover-baseline.png",
+      "size_bytes": 2168413,
+      "sha256": "9fa9c9970218539a1dcb4fe5f2c6cadc2811cd25811a7d2ebcf471cbf1ece6bc"
+    },
+    {
+      "name": "body-baseline.pdf",
+      "size_bytes": 1478713,
+      "sha256": "6369c8946e4e2ca154b7aa3e653e596e8ffd991940df8b63d5537cce48ebd726"
+    },
+    {
+      "name": "ccosi.png",
+      "size_bytes": 24322,
+      "sha256": "7358c8da8f86ab2f355ac1aa86c3a6a0f0417427ede2ae0c16c449a8a4eee68d"
+    },
+    {
+      "name": "siri-white.png",
+      "size_bytes": 135744,
+      "sha256": "096b74a1c244ee611aa8d92899a9228a73dba765ade7e545141f15a0289128a0"
+    },
+    {
+      "name": "committee-photo.jpg",
+      "size_bytes": 366215,
+      "sha256": "b3afcae39b876d9d0da37d8d944fbd8419c6f7dfd85ec4f998a99d664391e806"
+    }
+  ],
+  "external_fonts": [
+    {
+      "name": "NotoSansCJK-Regular.ttc",
+      "family": "Noto Sans CJK SC",
+      "style": "Regular",
+      "collection_index": 2,
+      "size_bytes": 19484784,
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    },
+    {
+      "name": "NotoSansCJK-Bold.ttc",
+      "family": "Noto Sans CJK SC",
+      "style": "Bold",
+      "collection_index": 2,
+      "size_bytes": 20050760,
+      "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb"
+    },
+    {
+      "name": "NotoSerifCJK-Regular.ttc",
+      "family": "Noto Serif CJK SC",
+      "style": "Regular",
+      "collection_index": 2,
+      "size_bytes": 26411360,
+      "sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d"
+    },
+    {
+      "name": "NotoSerifCJK-Bold.ttc",
+      "family": "Noto Serif CJK SC",
+      "style": "Bold",
+      "collection_index": 2,
+      "size_bytes": 27397052,
+      "sha256": "1505ee3b9c0890fae6302ee0e9c6fd74d690f4a55a6ace1d9944f3f6352d622d"
+    }
+  ],
+  "font_resolution": "Prefer assets-dir/fonts/<name>; otherwise resolve family/style with fontconfig fc-match, then require the pinned SHA256 and TTC collection index.",
+  "language_status": {
+    "zh-CN": "approved baseline available",
+    "en": "planned; build unavailable"
+  },
+  "body_printed_range": [
+    1,
+    118
+  ]
+}

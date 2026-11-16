@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "report_year": 2026,
+  "content_scope": "essential",
+  "distribution_id": "community",
+  "display_name": {
+    "zh": "Community 社区版",
+    "en": "Community Edition"
+  },
+  "institution_abbreviation": "CCOSI",
+  "language": "zh-CN",
+  "content_id": "gosd-2026-essential-body-v1.4",
+  "artifact_version": "1.4",
+  "editorial_status": "accepted_baseline",
+  "publication_status": "not_scheduled",
+  "publication_date": null,
+  "registered_on": "2026-11-16",
+  "research_verification": "inherited_without_upgrade",
+  "pdf_in_repository": false,
+  "logo_order": [
+    "x-lab",
+    "singularity",
+    "ccosi",
+    "kaiyuanshe"
+  ],
+  "positioning_zh": "X-lab、奇点智能研究院、CCOSI、开源社等社区与机构共同建设。",
+  "lead_organization_zh": null,
+  "co_builders": [
+    "x-lab",
+    "singularity",
+    "ccosi",
+    "kaiyuanshe"
+  ],
+  "approved_artifact": {
+    "source_filename": "GOSD_2026_Essential_Full_Print_v1.4.pdf",
+    "export_filename": "GOSD_2026_Essential_Community_zh-CN_v1.4.pdf",
+    "sha256": "ee89c8904dc1fc3e78e313e1f8dc17fcda6824db2d8daf8e206099610f272289",
+    "bytes": 63345580,
+    "pages": 140,
+    "in_repository": false,
+    "public_download_url": null
+  },
+  "physical_pages": {
+    "cover": 1,
+    "about_report": 3,
+    "editorial_board": 4,
+    "committee_introduction": [],
+    "contents": 7,
+    "body_start": 21,
+    "body_end": 138,
+    "inside_back_cover": 139,
+    "back_cover": 140
+  },
+  "printed_pages": {
+    "frontmatter": "i—xvii",
+    "body": "1—118"
+  },
+  "build": {
+    "entry": "../../shared/source/build.py",
+    "source_content": "../../shared/content-baseline.json",
+    "frontmatter": "preserved_from_approved_community_v1.4",
+    "output_is_byte_identical_to_approved": true
+  }
+}

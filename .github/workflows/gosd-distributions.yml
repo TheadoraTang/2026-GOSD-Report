@@ -1,0 +1,32 @@
+name: GOSD distribution registry
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editions/insights/distributions/**'
+      - 'editions/insights/current.json'
+      - 'editions/insights/scripts/check_sources.py'
+      - '.github/workflows/gosd-distributions.yml'
+  pull_request:
+    paths:
+      - 'editions/insights/distributions/**'
+      - 'editions/insights/current.json'
+      - '.github/workflows/gosd-distributions.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify version, language and source boundaries
+        run: |
+          python editions/insights/distributions/check_registry.py
+          python editions/insights/scripts/check_sources.py
+          python brand/osdgs/v2.0/source/verify_assets.py
+          python brand/osdgs/identity/v0.1/source/verify_assets.py
+          git diff --check
