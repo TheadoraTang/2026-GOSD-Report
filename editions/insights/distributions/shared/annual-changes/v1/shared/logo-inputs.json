@@ -1,0 +1,254 @@
+[
+  {
+    "name": "微软",
+    "file": "logo-60-0.png",
+    "source": "approved report PDF",
+    "physical_page": 60,
+    "xref": 1766,
+    "bbox": [
+      46.48918151855469,
+      185.95416259765625,
+      57.20485305786133,
+      196.66983032226562
+    ],
+    "sha256": "7aede6728e300716f62890089643c9c6fa6cc66a71fac39fd06a676af1e98360"
+  },
+  {
+    "name": "华为",
+    "file": "logo-60-1.jpeg",
+    "source": "approved report PDF",
+    "physical_page": 60,
+    "xref": 1768,
+    "bbox": [
+      46.48918151855469,
+      199.22119140625,
+      57.20485305786133,
+      209.93685913085938
+    ],
+    "sha256": "25aad99dc8f7609d8244e9de3de457fd693604e2a091a676ba862a798707de80"
+  },
+  {
+    "name": "谷歌",
+    "file": "logo-60-2.png",
+    "source": "approved report PDF",
+    "physical_page": 60,
+    "xref": 1769,
+    "bbox": [
+      46.48918151855469,
+      212.4882049560547,
+      57.20485305786133,
+      223.20387268066406
+    ],
+    "sha256": "c3d6da94fc62caf48576cce369ba4a43ad8a87330059935858e3cb842ec1805b"
+  },
+  {
+    "name": "开放原子开源基金会",
+    "file": "logo-64-0.png",
+    "source": "approved report PDF",
+    "physical_page": 64,
+    "xref": 1883,
+    "bbox": [
+      45.4686393737793,
+      205.54852294921875,
+      56.694580078125,
+      212.28408813476562
+    ],
+    "sha256": "67d10a82eebb2fcaaa870dfcd274130244a74d2dad244ce9dbd262c9d07aba19"
+  },
+  {
+    "name": "Apache 软件基金会",
+    "file": "logo-64-1.png",
+    "source": "approved report PDF",
+    "physical_page": 64,
+    "xref": 1884,
+    "bbox": [
+      45.4686393737793,
+      221.87716674804688,
+      56.694580078125,
+      228.61273193359375
+    ],
+    "sha256": "bd8d66b9e5a1e66e11306392455784c54ee364bb720f09fc975336090db97034"
+  },
+  {
+    "name": "Linux 基金会及子基金会",
+    "file": "logo-64-2.png",
+    "source": "approved report PDF",
+    "physical_page": 64,
+    "xref": 1882,
+    "bbox": [
+      45.4686393737793,
+      189.21987915039062,
+      56.694580078125,
+      195.9554443359375
+    ],
+    "sha256": "5451ff3c93a68086c04abfa8f34c8dd53d87a8308a63e44d3d60b5708e9ffd43"
+  },
+  {
+    "name": "Codex",
+    "file": "logo-81-0.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2302,
+    "bbox": [
+      140.86012268066406,
+      182.26304626464844,
+      152.0860595703125,
+      193.48898315429688
+    ],
+    "sha256": "acb0da82985c1d0f51766d6b805d59e7d190cafbb1b72a9c3936afbe4d6b1d67"
+  },
+  {
+    "name": "cc-switch",
+    "file": "logo-81-1.jpeg",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2318,
+    "bbox": [
+      140.86012268066406,
+      265.1253967285156,
+      151.06552124023438,
+      275.330810546875
+    ],
+    "sha256": "a559abd5b4d34178acfeb3d54596d1d2d9a5bf576777d19d7a56d179cf695320"
+  },
+  {
+    "name": "OpenClaw",
+    "file": "logo-81-2.jpeg",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2323,
+    "bbox": [
+      398.8016052246094,
+      172.16302490234375,
+      411.048095703125,
+      184.4095001220703
+    ],
+    "sha256": "bdf27fc48a38d8a6e39141322a22e112ef8318713fd1e95c94a666b5edc441fb"
+  },
+  {
+    "name": "Open WebUI",
+    "file": "logo-81-3.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2333,
+    "bbox": [
+      480.4447937011719,
+      267.8670654296875,
+      491.16046142578125,
+      278.5827331542969
+    ],
+    "sha256": "2f59e0c02cf4b047d1e2d6fbab1a22828983dc3cfc9c78c40a02387e48008c23"
+  },
+  {
+    "name": "deer-flow",
+    "file": "logo-81-4.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2336,
+    "bbox": [
+      61.00286102294922,
+      331.3838195800781,
+      72.22880554199219,
+      342.6097717285156
+    ],
+    "sha256": "b6df6f409f6b34e31a112cfba9b178079ca3eb21cd033c71b4841cc7fa7c3d52"
+  },
+  {
+    "name": "Dify",
+    "file": "logo-81-5.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2345,
+    "bbox": [
+      398.29132080078125,
+      331.3838195800781,
+      409.51727294921875,
+      342.6097717285156
+    ],
+    "sha256": "438de8cf45f7db4b9185597a7d4c8e500407607f14a5eaea5a79428aeed9926d"
+  },
+  {
+    "name": "LangChain",
+    "file": "logo-81-6.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2354,
+    "bbox": [
+      61.00286102294922,
+      386.9153747558594,
+      71.20825958251953,
+      397.12078857421875
+    ],
+    "sha256": "449af92446d6b052c45a425b88f0c76d148e318196e19499693008442663f909"
+  },
+  {
+    "name": "OpenViking",
+    "file": "logo-81-7.jpeg",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2368,
+    "bbox": [
+      61.00286102294922,
+      452.230224609375,
+      71.7185287475586,
+      462.9458923339844
+    ],
+    "sha256": "ab61b88fe2e07ea6efd4b185981d3086981ae949185a5c3bdbbc995ee0eab27b"
+  },
+  {
+    "name": "MCP",
+    "file": "logo-81-8.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2387,
+    "bbox": [
+      239.08709716796875,
+      501.6174621582031,
+      249.80276489257812,
+      512.3331298828125
+    ],
+    "sha256": "5695a232c7c732621b3d249f49a064e39f2b6920cc1c5e2bff9e025e2b046ed7"
+  },
+  {
+    "name": "Browser Use",
+    "file": "logo-81-9.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2392,
+    "bbox": [
+      489.8847961425781,
+      456.08148193359375,
+      500.0902099609375,
+      466.2868957519531
+    ],
+    "sha256": "138ed66d10be2cb6017ca2c8db62d8443cc11c1f6ff2d90c66b75a606cc59b35"
+  },
+  {
+    "name": "daytona",
+    "file": "logo-81-10.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2400,
+    "bbox": [
+      224.6294403076172,
+      533.50341796875,
+      235.34510803222656,
+      544.2191162109375
+    ],
+    "sha256": "17a214a4b7d56e98e02fcba154e8af8a7bff80885962018a31ec552ccae07665"
+  },
+  {
+    "name": "Langfuse",
+    "file": "logo-81-11.png",
+    "source": "approved report PDF",
+    "physical_page": 81,
+    "xref": 2406,
+    "bbox": [
+      316.64813232421875,
+      533.248291015625,
+      327.87408447265625,
+      544.4742431640625
+    ],
+    "sha256": "7be274e021210d3d3009c4aab1f50d4fcadeae4781ef94bc8d566c5b06d71242"
+  }
+]

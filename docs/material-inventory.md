@@ -86,3 +86,7 @@
 - 两篇附录作为重构输入同步维护，职责、证据字段和样节联动见[附录规划](appendix-plan.md)。
 
 附录编号核对：全书目录和dpg正文采用A方法/B模型开放；第六章菜单仍有A/B/C旧编号。declaration页面明确宣言来源已并入引言，故不得遗漏宣言内容，也不依据旧菜单重复建第三篇附录。[宣言来源入口](https://www.x-lab.info/2026-Global-Open-Source-Development-Report/2026/zh/appendices/declaration/)于2026年11月4日已读取。详见附录规划的编号沿革表。
+
+## 2026-11-18 双语专题与合稿登记
+
+新增已批准中英文年度变化专题及COSSI全文合稿；公共数据快照、输入/输出指纹、来源与限制见该记录。原材料清单保持历史身份。 见[批准与核查记录](../editions/insights/reviews/2026-11-18-bilingual-annual-changes.md)。

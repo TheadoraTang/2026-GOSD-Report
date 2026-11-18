@@ -1,0 +1,76 @@
+{
+  "version": "0.1",
+  "status": "English review insert; not merged",
+  "title": "Eight shifts in global open source",
+  "main_period": "1 July 2025–30 June 2026",
+  "pages": [
+    {
+      "subtitle": "Activity, assets and a changing geography",
+      "lead": "AI is reshaping development workflows, open supply now spans code, models and data, and participation and contributions are growing across the Global South.",
+      "items": [
+        {
+          "id": 1,
+          "chart_title": "Development activity surges",
+          "scope": "GitHub · 12 months ending 30 September each year",
+          "title": "AI enters the development workflow",
+          "body": "GitHub activity expanded sharply in 2026 alongside the use of AI agents. The share of pull requests detectably authored by agents rose from 17% in March to over 40% in September. These concurrent trends point to changing workflows; they do not establish AI’s causal contribution. Quality and public value still depend on review, maintenance and adoption."
+        },
+        {
+          "id": 2,
+          "chart_title": "Open assets extend beyond code",
+          "scope": "Public repositories, models and datasets · distinct windows",
+          "title": "Supply spans code, models and data",
+          "body": "Adding Hugging Face broadens this edition’s view of open assets. Code repositories, models and datasets all expanded in their respective observation windows, but their counts cannot be added together. The next question is how these resources connect—and whether open outputs can be adopted, adapted and maintained over time."
+        },
+        {
+          "id": 3,
+          "chart_title": "The Global South gains participants",
+          "scope": "Active developers · report-year regional comparison",
+          "title": "A broader base for local development",
+          "body": "Active developer counts rose by 42.0% in China, 28.4% in India and 29.2% across the six-country group. Growing participation does not imply uniform capabilities or positions in collaboration networks. Its developmental value depends on locally relevant projects, including language, education and industry needs, supported by sustained maintenance and cross-border cooperation."
+        },
+        {
+          "id": 4,
+          "chart_title": "China overtakes the US in this series",
+          "scope": "OpenRank · report-year regional comparison, 2022–2026",
+          "title": "Participation becomes contribution",
+          "body": "In the report’s regional comparison series, China’s contribution rose from 3.008 million in 2025 to 4.429 million OpenRank in 2026, exceeding the US figure of 4.240 million. Growth thus extends from participation to measured collaboration. This crossover applies to this series’ coverage and method; project diversity, sustained supply and maintenance remain essential to interpreting it."
+        }
+      ]
+    },
+    {
+      "subtitle": "Cities, organizations and the agent ecosystem",
+      "lead": "Model reuse brings Hangzhou into focus, monthly rankings reveal shifts among enterprises and foundations, and agent tools extend across a broader range of tasks.",
+      "items": [
+        {
+          "id": 5,
+          "chart_title": "Hangzhou stands out in model reuse",
+          "scope": "HF institutional publishers · 17 July 2026, post-period",
+          "title": "A city’s reach extends through reuse",
+          "body": "Hangzhou ranked third in China by developer count in 2025, with about 1.62 million developers. In the five-city institutional sample, it leads in model downloads, likes and direct derivatives, driven mainly by Qwen and DeepSeek. Talent concentration and external model reuse reveal different dimensions of city influence; these rankings should be interpreted separately."
+        },
+        {
+          "id": 6,
+          "chart_title": "Huawei takes the monthly lead",
+          "scope": "Global enterprise monthly OpenRank · selected months",
+          "title": "Monthly shifts reveal new momentum",
+          "body": "Huawei overtook Microsoft in March 2026 and remained first through June. Monthly rankings locate the timing of a shift; aggregation over the main reporting period captures a different horizon. Microsoft still ranks first and Huawei second for that full period. Sustained investment and the mix of projects help interpret the monthly crossover."
+        },
+        {
+          "id": 7,
+          "chart_title": "OpenAtom moves into second place",
+          "scope": "Foundation monthly OpenRank · LF family aggregated",
+          "title": "Foundation positions are changing",
+          "body": "The OpenAtom Foundation overtook Apache in June 2025. With the Linux Foundation and its sub-foundations aggregated, OpenAtom ranks second. This historical event is newly covered in this edition. It signals a shift in organizational collaboration; governance quality still requires evidence about project responsibilities, continuity of maintenance and actual use."
+        },
+        {
+          "id": 8,
+          "chart_title": "A rapidly expanding agent stack",
+          "scope": "Fixed landscape · 27 September 2026, post-period",
+          "title": "Evaluate agents across whole tasks",
+          "body": "The landscape in §4.1 spans 86 projects in 12 categories; 48 repositories were created since January 2025. Alongside coding assistants, memory, tool connectivity, isolated execution and evaluation form a broader division of work. Assessment must extend to whole tasks: whether context persists, tools work together and results can be reliably verified."
+        }
+      ]
+    }
+  ]
+}

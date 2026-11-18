@@ -1,0 +1,252 @@
+{
+  "version": "0.6",
+  "date": "2026-11-18",
+  "status": "approved English insert integrated",
+  "base": {
+    "name": "GOSD_2026_COSSI_EN_Full_Print_v0.5.pdf",
+    "sha256": "362cf50547b16200495c6804c3e8dee6a476918fadb89856f817bfa39f5c7298",
+    "pages": 156
+  },
+  "insert": {
+    "name": "GOSD_2026_COSSI_EN_Eight_Shifts_v0.1_Review.pdf",
+    "sha256": "a44ddb30f4b0caa337c8d83c082d72c0d0ab3aa6f4333ff08e6faa1da10672c9",
+    "pages": 2,
+    "approved_by": "user, 2026-11-18"
+  },
+  "output": {
+    "name": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+    "sha256": "3e1d9e825610c95088f4ac7860bb9bb27faf478a3d30d538a6e99ab8afaea0c8",
+    "bytes": 19162626,
+    "pages": 158
+  },
+  "insert_position": {
+    "physical_pages": [
+      14,
+      15
+    ],
+    "folios": [
+      "xiii",
+      "xiv"
+    ]
+  },
+  "body_folios": "1–129 unchanged",
+  "front_folios": "i–xxvii",
+  "bookmarks": 118,
+  "internal_references_added": [
+    {
+      "physical_page": 14,
+      "token": "§2.5",
+      "target_page": 60
+    },
+    {
+      "physical_page": 14,
+      "token": "§§2.1–2.2",
+      "target_page": 48
+    },
+    {
+      "physical_page": 15,
+      "token": "§§3.2–3.3",
+      "target_page": 73
+    },
+    {
+      "physical_page": 15,
+      "token": "§4.1",
+      "target_page": 92
+    },
+    {
+      "physical_page": 15,
+      "token": "§4.1",
+      "target_page": 92
+    }
+  ],
+  "edits": [
+    {
+      "kind": "folios",
+      "physical_pages": "14–28",
+      "new_folios": "xiii–xxvii"
+    },
+    {
+      "kind": "contents",
+      "physical_page": 10,
+      "entries": [
+        {
+          "title": "About this report",
+          "folio": "i",
+          "target_index": 1,
+          "rect": [
+            50,
+            351,
+            405,
+            377
+          ]
+        },
+        {
+          "title": "Editorial Board",
+          "folio": "ii",
+          "target_index": 2,
+          "rect": [
+            50,
+            387,
+            405,
+            413
+          ]
+        },
+        {
+          "title": "About CCOSI",
+          "folio": "iii",
+          "target_index": 3,
+          "rect": [
+            50,
+            423,
+            405,
+            449
+          ]
+        },
+        {
+          "title": "Preface",
+          "folio": "vi",
+          "target_index": 6,
+          "rect": [
+            50,
+            459,
+            405,
+            485
+          ]
+        },
+        {
+          "title": "Contents",
+          "folio": "ix",
+          "target_index": 9,
+          "rect": [
+            50,
+            495,
+            405,
+            521
+          ]
+        },
+        {
+          "title": "Executive summary",
+          "folio": "x",
+          "target_index": 10,
+          "rect": [
+            50,
+            531,
+            405,
+            557
+          ]
+        },
+        {
+          "title": "Three views, three distributions",
+          "folio": "xi",
+          "target_index": 11,
+          "rect": [
+            50,
+            567,
+            405,
+            593
+          ]
+        },
+        {
+          "title": "From evidence to action",
+          "folio": "xii",
+          "target_index": 12,
+          "rect": [
+            50,
+            603,
+            405,
+            629
+          ]
+        },
+        {
+          "title": "Eight shifts in global open source",
+          "folio": "xiii–xiv",
+          "target_index": 13,
+          "rect": [
+            50,
+            639,
+            405,
+            665
+          ]
+        },
+        {
+          "title": "A shared language for observation",
+          "folio": "xv",
+          "target_index": 15,
+          "rect": [
+            50,
+            675,
+            405,
+            701
+          ]
+        },
+        {
+          "title": "Putting the framework to use",
+          "folio": "xvi",
+          "target_index": 16,
+          "rect": [
+            50,
+            711,
+            405,
+            737
+          ]
+        },
+        {
+          "title": "Standardization foundations and standards in development",
+          "folio": "xvii",
+          "target_index": 17,
+          "rect": [
+            50,
+            747,
+            405,
+            791
+          ]
+        },
+        {
+          "title": "Report architecture and reading routes",
+          "folio": "xx",
+          "target_index": 20,
+          "rect": [
+            50,
+            800,
+            405,
+            826
+          ]
+        },
+        {
+          "title": "How to read a composite figure",
+          "folio": "xxii",
+          "target_index": 22,
+          "rect": [
+            50,
+            836,
+            405,
+            862
+          ]
+        },
+        {
+          "title": "Declaration on international cooperation in open source AI",
+          "folio": "xxiii",
+          "target_index": 23,
+          "rect": [
+            50,
+            872,
+            405,
+            916
+          ]
+        }
+      ],
+      "reading_route": "Executive summary and annual shifts, then Chapter 6",
+      "section_guide_reference": "xx–xxi"
+    },
+    {
+      "kind": "transition-before",
+      "physical_page": 13,
+      "text": "The following eight shifts put these priorities in context, connecting changes in activity and assets with the roles of regions, cities and institutions."
+    },
+    {
+      "kind": "transition-after",
+      "physical_page": 16,
+      "text": "Interpreting these shifts requires shared goals and comparable evidence. OSDGs set the development direction; OSDI translates goals into observable dimensions. The assessment data schema records objects, periods, sources and versions so findings can be explained and verified."
+    }
+  ]
+}

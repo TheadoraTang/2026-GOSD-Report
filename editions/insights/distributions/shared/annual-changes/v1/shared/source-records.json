@@ -1,0 +1,116 @@
+{
+  "registered_on": "2026-11-18",
+  "authority": "will-ww/2026-GOSD-Report",
+  "research_baseline_commit": "fff392e957bab9fb6d89d49dea712af47484efaa",
+  "sources": [
+    {
+      "file": "board-initiator-2026-02.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/initiator/month/20262/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "4941c06e9a0b87bd762e1b60bc667183a4e1fa172621168a4ce9c587627dee8a",
+      "bytes": 95251
+    },
+    {
+      "file": "board-initiator-2026-03.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/initiator/month/20263/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "b9ed0b09868e23b5b61b148ca4e8d516fd80727b05b664313f9122b8f9555c22",
+      "bytes": 95186
+    },
+    {
+      "file": "board-initiator-2026-06.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/initiator/month/20266/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "c66e13470cec971623ed04ad16740f9e108c977064e17b87fac3882842afd3e3",
+      "bytes": 95142
+    },
+    {
+      "file": "board-foundation-2025-05.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/foundation/month/20255/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "dcebb36adc05959b49ad3cc34afb6f6143da93f5a0d0aa7216864030b9aa0b0a",
+      "bytes": 12784
+    },
+    {
+      "file": "board-foundation-2025-06.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/foundation/month/20256/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "e0614fb5ac8687787bce4321dc8dd97dcdb17ff3b9a9e19d4286562e3e0670f6",
+      "bytes": 12805
+    },
+    {
+      "file": "board-foundation-2025-07.json",
+      "url": "https://selfoss.open-digger.cn/open_leaderboard/global/foundation/month/20257/data.json",
+      "accessed_on": "2026-11-18",
+      "sha256": "edf26189ab2760265d0b8a3b38335873b34d48345d43a486d0307e3f8e2510a8",
+      "bytes": 12782
+    },
+    {
+      "file": "agentic-ai-projects.csv",
+      "github_blob_sha": "681604011cda10506a66419e03d36261dd0e909e",
+      "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/landscape/data/agentic-ai-projects.csv",
+      "accessed_on": "2026-11-18",
+      "sha256": "b310a077afee3082e95581a23446ba4f01123fd5fe630811c09c51fed672beda"
+    },
+    {
+      "file": "five_groups_active_trend.csv",
+      "sha256": "4afa1746472acb74221dd8885d5034695288f04f1636b7465e84ed42961f091e",
+      "origin": "approved report archive / user supplied attachment",
+      "accessed_on": "2026-11-18"
+    },
+    {
+      "file": "five_groups_contribution.csv",
+      "sha256": "6ec42dd568bbed1610cb3f468d92564b394bde81a46ae74e3fc49254213cf877",
+      "origin": "approved report archive / user supplied attachment",
+      "accessed_on": "2026-11-18"
+    }
+  ],
+  "scope": "Inherited acquisition records; no new external measurement in this repository update.",
+  "local_snapshots": [
+    {
+      "file": "board-foundation-2025-05.json",
+      "sha256": "dcebb36adc05959b49ad3cc34afb6f6143da93f5a0d0aa7216864030b9aa0b0a",
+      "bytes": 12784
+    },
+    {
+      "file": "board-initiator-2026-03.json",
+      "sha256": "b9ed0b09868e23b5b61b148ca4e8d516fd80727b05b664313f9122b8f9555c22",
+      "bytes": 95186
+    },
+    {
+      "file": "board-foundation-2025-07.json",
+      "sha256": "edf26189ab2760265d0b8a3b38335873b34d48345d43a486d0307e3f8e2510a8",
+      "bytes": 12782
+    },
+    {
+      "file": "board-foundation-2025-06.json",
+      "sha256": "e0614fb5ac8687787bce4321dc8dd97dcdb17ff3b9a9e19d4286562e3e0670f6",
+      "bytes": 12805
+    },
+    {
+      "file": "board-initiator-2026-02.json",
+      "sha256": "4941c06e9a0b87bd762e1b60bc667183a4e1fa172621168a4ce9c587627dee8a",
+      "bytes": 95251
+    },
+    {
+      "file": "board-initiator-2026-06.json",
+      "sha256": "c66e13470cec971623ed04ad16740f9e108c977064e17b87fac3882842afd3e3",
+      "bytes": 95142
+    },
+    {
+      "file": "agentic-ai-projects.csv",
+      "sha256": "b310a077afee3082e95581a23446ba4f01123fd5fe630811c09c51fed672beda",
+      "bytes": 207871
+    },
+    {
+      "file": "five_groups_active_trend.csv",
+      "sha256": "4afa1746472acb74221dd8885d5034695288f04f1636b7465e84ed42961f091e",
+      "bytes": 283
+    },
+    {
+      "file": "five_groups_contribution.csv",
+      "sha256": "6ec42dd568bbed1610cb3f468d92564b394bde81a46ae74e3fc49254213cf877",
+      "bytes": 331
+    }
+  ]
+}

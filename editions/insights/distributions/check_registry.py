@@ -122,6 +122,125 @@ class Review:
                 self.require(False, f"Cannot inspect {name}: {exc}")
 
     def run(self):
+        """Schema 2 allows independently accepted languages and frozen editions."""
+        reg_path=self.root/'registry.json'
+        reg=self.load(reg_path)
+        if reg.get('schema_version')==1:
+            return self.run_schema1()
+        self.equal(reg.get('schema_version'),2,'registry schema')
+        self.equal(reg.get('main_window'),WINDOW,'main period')
+        self.equal(reg.get('outputs',{}).get('pdf',{}).get('in_repository'),False,'PDF exclusion')
+        current_path=self.root.parent/'current.json'
+        current=self.load(current_path)
+        self.equal(current.get('main_window'),WINDOW,'current main period')
+        self.equal(current.get('pdf_in_repository'),False,'current PDF exclusion')
+        self.equal(self.path(current_path,current.get('distribution_registry'),'registry pointer'),reg_path,'registry target')
+        for origin,data in [(reg_path,reg),(current_path,current)]:
+            self.path(origin,data.get('review'),'current approval')
+        content_path=self.path(reg_path,reg.get('shared_content_manifest'),'current shared content')
+        content=self.load(content_path) if content_path else {}
+        self.equal(content.get('content_id'),reg.get('shared_content_id'),'current content ID')
+        self.equal(content.get('main_window'),WINDOW,'shared main period')
+        historical_path=self.path(reg_path,reg.get('historical_common_body_manifest'),'historical body manifest')
+        historical=self.load(historical_path) if historical_path else {}
+        self.equal(historical.get('content_id'),'gosd-2026-essential-body-v1.4','frozen historical content')
+        detail_path=self.path(historical_path,historical.get('equality_verification',{}).get('detail'),'historic equivalence') if historical_path else None
+        detail=self.load(detail_path) if detail_path else {}
+        self.equal(len(detail.get('body',[])),historical.get('body_pages'),'historic body count')
+        for i,row in enumerate(detail.get('body',[])):
+            self.equal(row.get('printed_page'),i+1,'historic body sequence')
+            for key in ['text_identical','content_stream_bytes_identical','raster36dpi_identical']:
+                self.equal(row.get(key),True,f'historic row {i+1}: {key}')
+            self.hash(row.get('raster_sha256'),'historic raster identity')
+        shared_path=self.path(content_path,content.get('shared_annual_changes'),'shared annual changes') if content_path else None
+        shared=self.load(shared_path) if shared_path else {}
+        self.equal(shared.get('status'),'author_approved','annual changes approval')
+        self.equal(shared.get('content_id'),content.get('content_id'),'annual content ID')
+        self.equal(shared.get('main_window'),WINDOW,'annual main period')
+        self.path(shared_path,shared.get('review'),'annual approval')
+        data_path=self.path(shared_path,shared.get('shared_data'),'single numeric source')
+        if data_path:
+            import hashlib
+            self.equal(hashlib.sha256(data_path.read_bytes()).hexdigest(),shared.get('shared_data_sha256'),'shared data fingerprint')
+        entries=reg.get('distributions',[])
+        self.equal({x.get('id') for x in entries},DISTRIBUTIONS,'edition identities')
+        self.equal(len(entries),2,'edition count')
+        configs={}
+        naming=reg.get('naming',{})
+        self.equal(naming.get('institution_abbreviation'),'CCOSI','institution name')
+        self.equal(naming.get('distribution_label'),'COSSI','edition label')
+        for entry in entries:
+            did=entry.get('id')
+            self.equal(set(entry.get('languages',{})),LANGUAGES,f'{did} languages')
+            for lang,ref in entry.get('languages',{}).items():
+                path=self.path(reg_path,ref.get('config'),f'{did}/{lang} config')
+                if not path:continue
+                cfg=self.load(path);configs[did,lang]=(path,cfg)
+                for key,expected in [('distribution_id',did),('language',lang),('content_scope','essential'),('report_year',2026),('institution_abbreviation','CCOSI'),('pdf_in_repository',False),('logo_order',LOGOS[did]),('display_name',entry.get('display_name'))]:
+                    self.equal(cfg.get(key),expected,f'{did}/{lang}.{key}')
+                self.require(not cfg.get('publication_date') or cfg.get('publication_status')!='not_scheduled',f'{did}/{lang} publication date/state')
+                if ref.get('status')=='planned':
+                    self.equal(cfg.get('translation_status'),'planned',f'{did}/{lang} planned')
+                    self.planned(cfg,f'{did}/{lang}')
+                    continue
+                self.equal(ref.get('status'),'accepted_baseline',f'{did}/{lang} registered state')
+                self.equal(cfg.get('editorial_status'),'accepted_baseline',f'{did}/{lang} editorial state')
+                if lang=='en':
+                    self.equal(cfg.get('translation_status'),'accepted_baseline',f'{did}/{lang} translation state')
+                    self.require(bool(cfg.get('reviewed_on') and cfg.get('reviewed_by')),'English approval identity')
+                artifact=cfg.get('approved_artifact') or {}
+                self.hash(artifact.get('sha256'),f'{did}/{lang} approved PDF')
+                self.equal(artifact.get('in_repository'),False,f'{did}/{lang} binary exclusion')
+                total=artifact.get('pages')
+                self.require(isinstance(total,int) and total>0,f'{did}/{lang} page count')
+                self.require(isinstance(artifact.get('bytes'),int) and artifact['bytes']>0,f'{did}/{lang} bytes')
+                for key in ['source_filename','export_filename']:
+                    self.require(str(artifact.get(key,'')).endswith(f"_v{cfg.get('artifact_version')}.pdf"),f'{did}/{lang} filename/version')
+                pages=cfg.get('physical_pages') or {}
+                self.equal(pages.get('back_cover'),total,f'{did}/{lang} last page')
+                for k,val in pages.items():
+                    vals=val if isinstance(val,list) else [val]
+                    self.require(all(isinstance(x,int) and 1<=x<=total for x in vals),f'{did}/{lang}.{k} page range')
+                build=cfg.get('build',{})
+                self.path(path,build.get('entry'),f'{did}/{lang} build source')
+                self.path(path,build.get('source_content'),f'{did}/{lang} build content')
+                pointers=[p for p in current.get('current_full_prints',{}).values() if p.get('language')==lang and (current_path.parent/p.get('config','')).resolve()==path]
+                self.equal(len(pointers),1,f'{did}/{lang} current pointer')
+                if pointers:
+                    self.equal(pointers[0].get('version'),cfg.get('artifact_version'),f'{did}/{lang} current version')
+                    self.equal(pointers[0].get('pages'),total,f'{did}/{lang} current pages')
+                if did=='cossi':
+                    self.equal(cfg.get('content_id'),content.get('content_id'),f'{lang} current content')
+                    layout=content.get('language_layouts',{}).get(lang,{})
+                    self.equal(layout.get('artifact'),artifact,f'{lang} shared artifact')
+                    self.equal(shared.get('approved_full_artifacts',{}).get(lang),artifact,f'{lang} increment artifact')
+                    part=shared.get('languages',{}).get(lang,{})
+                    self.equal(part.get('full_version'),cfg.get('artifact_version'),f'{lang} increment version')
+                    self.equal(part.get('full_pages'),total,f'{lang} increment page count')
+                    self.equal(part.get('physical_pages'),pages.get('annual_changes'),f'{lang} insert location')
+                    self.path(shared_path,part.get('content'),f'{lang} editable prose')
+                    self.path(shared_path,part.get('integration'),f'{lang} assembly source')
+                    lo,hi=layout.get('body_printed_range',[0,0])
+                    self.equal(pages.get('body_end',0)-pages.get('body_start',0)+1,hi-lo+1,f'{lang} body length')
+                else:
+                    old=historical.get('approved_pdf_sources',{}).get(did,{})
+                    self.equal(artifact.get('sha256'),old.get('sha256'),'frozen Community PDF')
+                    self.equal(cfg.get('content_id'),historical.get('content_id'),'frozen Community content')
+                self.summary[f'{did}/{lang}']={'version':cfg.get('artifact_version'),'pages':total}
+        for did in DISTRIBUTIONS:
+            zh=configs.get((did,'zh-CN'))
+            en=configs.get((did,'en'))
+            if zh and en:
+                self.equal(self.path(en[0],en[1].get('source_distribution_config'),f'{did} translation source'),zh[0],f'{did} source config')
+                self.equal(en[1].get('source_content_id'),zh[1].get('content_id'),f'{did} source content ID')
+                self.summary[did]={'version':zh[1].get('artifact_version'),'pages':zh[1].get('approved_artifact',{}).get('pages'),'language':'zh-CN','english_status':en[1].get('translation_status')}
+        self.summary['shared_body_pages']='language-specific pagination; historical 118-page identity retained'
+        self.markdown_links(list(self.root.rglob('*.md'))+[self.root.parent/'README.md'])
+        self.forbidden_files()
+        return {'ok':not self.errors,'checks':self.checks,'summary':self.summary,'errors':self.errors,
+                'scope':'Current bilingual metadata and immutable historical records; external PDFs are validated by the separate build/verification route.'}
+
+    def run_schema1(self):
         reg_path = self.root / "registry.json"
         reg = self.load(reg_path)
         current_path = self.root.parent / "current.json"

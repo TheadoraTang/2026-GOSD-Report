@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "report_year": 2026,
   "content_scope": "essential",
   "distribution_id": "cossi",
@@ -15,15 +15,57 @@
   "pdf_in_repository": false,
   "language": "en",
   "source_language": "zh-CN",
-  "source_content_id": "gosd-2026-essential-body-v1.4",
+  "source_content_id": "gosd-2026-essential-content-v1.7",
   "source_distribution_config": "../zh-CN/edition.json",
-  "translation_status": "planned",
-  "editorial_status": "not_started",
+  "translation_status": "accepted_baseline",
+  "editorial_status": "accepted_baseline",
   "publication_status": "not_scheduled",
   "publication_date": null,
-  "artifact_version": null,
-  "approved_artifact": null,
-  "physical_pages": null,
-  "reviewed_by": null,
-  "reviewed_on": null
+  "artifact_version": "0.6",
+  "approved_artifact": {
+    "source_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+    "export_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+    "sha256": "3e1d9e825610c95088f4ac7860bb9bb27faf478a3d30d538a6e99ab8afaea0c8",
+    "bytes": 19162626,
+    "pages": 158,
+    "page_format": "A3 portrait",
+    "in_repository": false,
+    "public_download_url": null
+  },
+  "physical_pages": {
+    "cover": 1,
+    "about_report": 2,
+    "editorial_board": 3,
+    "committee_introduction": [
+      4,
+      5,
+      6
+    ],
+    "contents": 10,
+    "annual_changes": [
+      14,
+      15
+    ],
+    "body_start": 29,
+    "body_end": 157,
+    "back_cover": 158
+  },
+  "reviewed_by": "author",
+  "reviewed_on": "2026-11-18",
+  "content_id": "gosd-2026-essential-content-v1.7",
+  "registered_on": "2026-11-18",
+  "printed_pages": {
+    "frontmatter": "i–xxvii",
+    "annual_changes": "xiii–xiv",
+    "body": "1–129"
+  },
+  "build": {
+    "entry": "../../shared/annual-changes/v1/build.py",
+    "source_content": "../../shared/content-2026-11-18.json",
+    "mode": "incremental_from_pinned_external_full_pdf",
+    "output_is_byte_identical_to_approved": false
+  },
+  "research_verification": "inherited_with_explicit_annual_change_boundaries",
+  "review": "../../../reviews/2026-11-18-bilingual-annual-changes.md",
+  "completed_on": "2026-11-18"
 }

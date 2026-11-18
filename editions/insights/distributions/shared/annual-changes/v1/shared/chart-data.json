@@ -1,0 +1,424 @@
+{
+  "1": {
+    "source": "GitHub Octoverse 2026, The year of momentum",
+    "window": "Each year: 12 months ending September 30; public and private repositories",
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "rows": [
+      {
+        "name": "代码推送",
+        "label": "Pushes",
+        "values": [
+          5.2,
+          6.7,
+          17.9
+        ],
+        "ymax": 20,
+        "unit": "十亿次",
+        "ratio": 2.6716417910447756
+      },
+      {
+        "name": "代码提交",
+        "label": "Commits",
+        "values": [
+          10.0,
+          12.9,
+          34.3
+        ],
+        "ymax": 40,
+        "unit": "十亿次",
+        "ratio": 2.6589147286821704
+      },
+      {
+        "name": "自动化作业",
+        "label": "Actions jobs",
+        "values": [
+          8.0,
+          14.0,
+          45.4
+        ],
+        "ymax": 50,
+        "unit": "十亿次",
+        "ratio": 3.242857142857143
+      },
+      {
+        "name": "合并请求",
+        "label": "Merged PR",
+        "values": [
+          0.402,
+          0.538,
+          1.3
+        ],
+        "ymax": 1.5,
+        "unit": "十亿次",
+        "ratio": 2.41635687732342
+      }
+    ]
+  },
+  "2": {
+    "source": "GOSD figure 2-13, p27; GitHub Innovation Graph; HF Summer 2026",
+    "rows": [
+      {
+        "name": "代码",
+        "value": "4.54亿",
+        "previous": "3.71亿",
+        "growth": 22.3,
+        "window": "2025Q2—2026Q2",
+        "color": "blue"
+      },
+      {
+        "name": "模型",
+        "value": "296万",
+        "previous": "243万",
+        "growth": 21.8,
+        "window": "2026年1—8月",
+        "color": "purple"
+      },
+      {
+        "name": "数据",
+        "value": "100万",
+        "previous": "71.1万",
+        "growth": 40.6,
+        "window": "2026年1—8月",
+        "color": "teal"
+      }
+    ],
+    "map_note": "Approved code repository choropleth retained. Model/dataset geographic figures are publisher samples, not platform totals.",
+    "samples": {
+      "US": {
+        "models": 45801,
+        "datasets": 5871
+      },
+      "CN": {
+        "models": 6017,
+        "datasets": 1338
+      }
+    }
+  },
+  "3": {
+    "source": "GOSD 2.1 five_groups_active_trend.csv, compiled regional comparison series",
+    "years": [
+      2025,
+      2026
+    ],
+    "rows": [
+      {
+        "name": "中国",
+        "values": [
+          3200000.0,
+          4545340.0
+        ],
+        "growth": 42.041875000000005
+      },
+      {
+        "name": "印度",
+        "values": [
+          2121976.0,
+          2723577.0
+        ],
+        "growth": 28.35098040694146
+      },
+      {
+        "name": "南方六国",
+        "values": [
+          2326236.0,
+          3004584.0
+        ],
+        "growth": 29.160755830448835
+      }
+    ],
+    "six": [
+      "巴西",
+      "印度尼西亚",
+      "越南",
+      "埃及",
+      "菲律宾",
+      "南非"
+    ]
+  },
+  "4": {
+    "source": "GOSD figure 2-5 upper panel, p19, compiled regional comparison series",
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "rows": [
+      {
+        "name": "中国",
+        "values": [
+          1335732.28,
+          2061718.92,
+          2442248.42,
+          3008427.55,
+          4429200.83
+        ]
+      },
+      {
+        "name": "美国",
+        "values": [
+          3404267.2,
+          3445974.56,
+          3675002.59,
+          3893624.35,
+          4239710.05
+        ]
+      }
+    ]
+  },
+  "5": {
+    "source": "杭州市开源生态全景报告, 2026-07, pp3 and20, snapshot2026-07-17",
+    "unit": "累计模型下载次数",
+    "rows": [
+      {
+        "name": "杭州",
+        "downloads": 3346085046,
+        "derived": 160204
+      },
+      {
+        "name": "北京",
+        "downloads": 2021691587,
+        "derived": 8243
+      },
+      {
+        "name": "上海",
+        "downloads": 213755691,
+        "derived": 2488
+      },
+      {
+        "name": "合肥",
+        "downloads": 107729310,
+        "derived": 278
+      },
+      {
+        "name": "深圳",
+        "downloads": 97900497,
+        "derived": 1138
+      }
+    ],
+    "hangzhou_models": 1668,
+    "hangzhou_publishers": 57,
+    "developer_rank_2025": 3,
+    "developer_count_2025": 1620000,
+    "note": "Model figures are five-city institutional publishers. Software comparison table in attachment mixes province and city; not reused as a city-only ranking."
+  },
+  "6": {
+    "source": "OpenShare public leaderboard JSON; Initiator Global",
+    "months": [
+      "2026-02",
+      "2026-03",
+      "2026-06"
+    ],
+    "rows": [
+      {
+        "id": ":companies/huawei",
+        "name": "华为",
+        "values": [
+          10842.75,
+          12344.42,
+          15087.36
+        ],
+        "ranks": [
+          2,
+          1,
+          1
+        ],
+        "avatar": "https://oss.open-digger.cn/logos/companies/huawei.png"
+      },
+      {
+        "id": ":companies/microsoft",
+        "name": "微软",
+        "values": [
+          12778.61,
+          11759.49,
+          6753.58
+        ],
+        "ranks": [
+          1,
+          2,
+          2
+        ],
+        "avatar": "https://oss.open-digger.cn/logos/companies/microsoft.png"
+      },
+      {
+        "id": ":companies/google",
+        "name": "谷歌",
+        "values": [
+          6371.83,
+          5854.75,
+          3018.28
+        ],
+        "ranks": [
+          3,
+          3,
+          3
+        ],
+        "avatar": "https://oss.open-digger.cn/logos/companies/google.png"
+      }
+    ]
+  },
+  "7": {
+    "source": "OpenShare public leaderboard JSON; Foundation Global; LF family recombined",
+    "months": [
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "rows": [
+      {
+        "id": ":foundations/linux_foundation",
+        "name": "LF及子基金会",
+        "values": [
+          22422.85,
+          21744.37,
+          21322.39
+        ],
+        "ranks": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": ":foundations/openatom",
+        "name": "开放原子",
+        "values": [
+          8871.68,
+          9313.85,
+          10476.86
+        ],
+        "ranks": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "id": ":foundations/apache",
+        "name": "Apache",
+        "values": [
+          9326.99,
+          9105.36,
+          9001.43
+        ],
+        "ranks": [
+          2,
+          3,
+          3
+        ]
+      }
+    ],
+    "lf_label_count": 14,
+    "note": "Raw web board lists LF subfoundations separately. Recombined family follows report convention; sum is not repo-deduplicated and cannot establish shares or governance quality. Current tags backcast history; AAIF historical attribution not its establishment date."
+  },
+  "8": {
+    "source": "Pinned antgroup/agentic-ai-landscape@e330d75ea4ca314bc81f6868df63425c8acca5e3; canonical CSV archived in report",
+    "snapshot": "2026-09-27",
+    "total": 86,
+    "created_since_2025": 48,
+    "categories": [
+      {
+        "id": "Agentic coding",
+        "name": "编码助手",
+        "group": "application",
+        "total": 16,
+        "recent": 12,
+        "example": "Codex"
+      },
+      {
+        "id": "Coding workflows & harnesses",
+        "name": "编码工作流",
+        "group": "application",
+        "total": 7,
+        "recent": 7,
+        "example": "cc-switch"
+      },
+      {
+        "id": "Personal AI assistants",
+        "name": "个人助手",
+        "group": "application",
+        "total": 7,
+        "recent": 5,
+        "example": "OpenClaw"
+      },
+      {
+        "id": "Chatbot workspaces",
+        "name": "聊天工作区",
+        "group": "application",
+        "total": 3,
+        "recent": 0,
+        "example": "Open WebUI"
+      },
+      {
+        "id": "Multi-agent orchestration",
+        "name": "多助手协同",
+        "group": "framework",
+        "total": 5,
+        "recent": 4,
+        "example": "deer-flow"
+      },
+      {
+        "id": "Workflow & agent builders",
+        "name": "流程搭建",
+        "group": "framework",
+        "total": 5,
+        "recent": 0,
+        "example": "Dify"
+      },
+      {
+        "id": "Code-first frameworks",
+        "name": "开发框架",
+        "group": "framework",
+        "total": 11,
+        "recent": 3,
+        "example": "LangChain"
+      },
+      {
+        "id": "Memory, knowledge & context",
+        "name": "资料与记忆",
+        "group": "runtime",
+        "total": 9,
+        "recent": 4,
+        "example": "OpenViking"
+      },
+      {
+        "id": "Protocols & interoperability",
+        "name": "工具连接",
+        "group": "runtime",
+        "total": 8,
+        "recent": 7,
+        "example": "MCP"
+      },
+      {
+        "id": "Tools, web & computer use",
+        "name": "浏览器与电脑",
+        "group": "runtime",
+        "total": 6,
+        "recent": 4,
+        "example": "Browser Use"
+      },
+      {
+        "id": "Development sandboxes",
+        "name": "隔离运行",
+        "group": "runtime",
+        "total": 5,
+        "recent": 2,
+        "example": "daytona"
+      },
+      {
+        "id": "Observability & evaluation",
+        "name": "观测与评估",
+        "group": "runtime",
+        "total": 4,
+        "recent": 0,
+        "example": "Langfuse"
+      }
+    ],
+    "note": "Creation cohorts are not a 2025/2026 membership replacement rate; fork/migration not independently resolved."
+  }
+}

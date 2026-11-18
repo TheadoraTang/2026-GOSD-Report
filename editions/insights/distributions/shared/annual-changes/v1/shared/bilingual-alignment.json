@@ -1,0 +1,87 @@
+{
+  "reviewed_on": "2026-11-18",
+  "reviewed_by": "author",
+  "scope": "Eight approved stories; shared numbers, language-specific wording and layouts.",
+  "units": [
+    {
+      "source_unit_id": "annual_shift_01",
+      "chart_id": "1",
+      "zh_title": "AI的影响进入开发与协作流程",
+      "en_title": "AI enters the development workflow",
+      "source_sha256": "60aa95f388e6600d4ca018579127ae12b1d72b74e6ba51427f7fe8d37df0fab6",
+      "translation_sha256": "30ae9f343723faf85c6e7bb4e8dec5bc6793864031d4f875c6d23b69e8365c69",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_02",
+      "chart_id": "2",
+      "zh_title": "开放供给成为多种资源的共同积累",
+      "en_title": "Supply spans code, models and data",
+      "source_sha256": "13ede79304279e845a4ac8d71707c50a7b9ad1204e102f43ae6c93f3816f457e",
+      "translation_sha256": "2c5fc48a6b2d1a377076f79bce190ddc078edd25e4e8bb210235225ec1926656",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_03",
+      "chart_id": "3",
+      "zh_title": "全球南方的增长具有不同路径",
+      "en_title": "A broader base for local development",
+      "source_sha256": "f14d722e7c04187cdbf213c706ebace20fad1e4e6a330cd85f1808bf72f08a08",
+      "translation_sha256": "caaae88515cf5b0fa40542a555dad2798545d85576dfddc905361bb3dbf0250c",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_04",
+      "chart_id": "4",
+      "zh_title": "中国的增长进一步体现为贡献变化",
+      "en_title": "Participation becomes contribution",
+      "source_sha256": "a2d3b06e95f39f11d373c9b1bd051805930d10dc5921c281feaa8180cefd371d",
+      "translation_sha256": "9bedf5f2953a93c75934c69206097ae73ca54837c55cd75d7d01848423bfe4cd",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_05",
+      "chart_id": "5",
+      "zh_title": "杭州的优势延伸到全球模型复用",
+      "en_title": "A city’s reach extends through reuse",
+      "source_sha256": "18388b5b5edd16944a241d1c9ebc85a03d6e6382f6fe751197c6a9241787f69b",
+      "translation_sha256": "6a8308c15bcd200ba34304b7cb603907fc3c6d8d5e973931bf11af5dd1cccbb3",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_06",
+      "chart_id": "6",
+      "zh_title": "企业影响位置出现可定位的交叉",
+      "en_title": "Monthly shifts reveal new momentum",
+      "source_sha256": "f841006864127d4b7fe3729ac56777fc105cacdc1f8361c94525d50bcff663ed",
+      "translation_sha256": "311d8ae7b33c84bc13ffa76d46506ff64e65c30fbe711af0a4a150697cb88bf6",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_07",
+      "chart_id": "7",
+      "zh_title": "中国的协作贡献进入基金会组织层面",
+      "en_title": "Foundation positions are changing",
+      "source_sha256": "3584a0c66322bf7337eed806b2df420311a6f7a9ab839386b7cd3405c54b2ede",
+      "translation_sha256": "930355c7098765c2ba313f0cdb07bb3e3d1d58b63a1627f2b1793cb288bb97a1",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    },
+    {
+      "source_unit_id": "annual_shift_08",
+      "chart_id": "8",
+      "zh_title": "Agent生态从单一工具走向完整任务链",
+      "en_title": "Evaluate agents across whole tasks",
+      "source_sha256": "5a71e83f6ecc5139b2edfa6e3224e12597a8f92147b06e25713d2701dd8ae83d",
+      "translation_sha256": "a6304d2ae7acdb8619433476f6c80f2be207c90e0cc76ad0d11ef3caa6c369cc",
+      "translation_status": "accepted_baseline",
+      "source_changed": false
+    }
+  ]
+}

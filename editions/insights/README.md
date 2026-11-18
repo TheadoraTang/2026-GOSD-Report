@@ -1,14 +1,14 @@
 # 2026 全球开源发展报告·精要版
 
-管理基线 v1.1 · 2026-11-16。当前中文全文：COSSI v1.6（142页）与Community v1.4（140页）；正式发布日期尚未确定。
+管理基线 v2.0 · 2026-11-18。当前 COSSI 中文全文 v1.7（144 页，A4）和英文全文 v0.6（158 页，A3）已获作者认可。Community 中文保持此前四 Logo v1.4（140 页），英文仍在筹备。
 
 ## 当前全文与发行版本
 
-[双版本发行入口](distributions/README.md)将精要版内容、发行身份、语言和输出格式分别管理。COSSI为中国科协牵头的版本；Community固定为此前X-lab、奇点智能研究院、CCOSI、开源社四Logo共建版本。两版正文第1—118页共用，前置内容分别维护；两个英文入口均为筹备中。
+[发行总入口](distributions/README.md) · [中文 COSSI](distributions/cossi/zh-CN/README.md) · [English COSSI](distributions/cossi/en/README.md) · [八大变化双语专题](distributions/shared/annual-changes/v1/README.md) · [最新批准记录](reviews/2026-11-18-bilingual-annual-changes.md)
 
-[COSSI中文基线](distributions/cossi/zh-CN/README.md) · [Community中文基线](distributions/community/zh-CN/README.md) · [发行注册表](distributions/registry.json) · [统一构建](distributions/shared/source/README.md) · [最新决定](reviews/2026-11-16-distribution-baselines.md)
+中英文共用八项故事与数字源，按语言分别排版；目录、页码、衔接和导航随全文合并更新。当前内容修订见 `distributions/shared/content-2026-11-18.json`。旧的 118 页正文逐页一致性结论仅指 2026-11-16 的中文基线对，不能外推到当前新增专题后的版本。
 
-`current.json`以`distribution_registry`和`current_full_prints`登记全文现状。11月9日前置v0.6、第一章v0.5等原模块字段原样保留在`historical_modular_snapshot`，不再与当前全文混用。`edition_id=insights`继续表示精要版工作区；新增`distribution_id`表达发行身份。
+`current.json` 的 `current_full_prints` 管理当前全文；`historical_modular_snapshot` 保留旧样稿状态，不将其当作当前完整报告。正式发布日期与研究核查状态独立记录。
 
 ## 原有研究与模块归档（2026-11-09）
 

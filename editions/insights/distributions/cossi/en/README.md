@@ -1,9 +1,9 @@
-# COSSI Edition · English planned
+# COSSI — English v0.6 · 158 pages · A3 portrait
 
-英文版筹备中，尚未开始正式翻译与编辑评审。此目录是发行配置入口，不是英文报告。
+2026-11-18：作者已通过本语言年度变化专题及全文整合，并授权入库。机构缩写保持 CCOSI；封面保持 CCOSI 在前、奇点在后。机构介绍保留中国通信学会承接秘书处，以及王伟的指定秘书长联系方式。
 
-基于[中文发行配置](../zh-CN/edition.json)与共同正文`gosd-2026-essential-body-v1.4`。英文正文和术语由两个发行版本共享，分别组合各自前置信息。
+[当前版本配置](edition.json) · [八大变化双语源](../../shared/annual-changes/v1/README.md) · [批准记录](../../../reviews/2026-11-18-bilingual-annual-changes.md) · [发行总入口](../../README.md)
 
-成品版本、PDF、页数、正式发布日期与复核人均未填写。[edition.json](edition.json)明确标记planned；构建器拒绝输出尚未完成的英文报告。
+新增专题位于执行摘要之后、共同观察语言之前。目录、前置页码、衔接、书签和链接已同步；既有正文印刷页码保持。英文按语言特点独立排版，不要求与中文逐页对应。
 
-[英文转写规范](../../shared/translation-policy.md) · [返回发行入口](../../README.md)
+本目录登记已交付 PDF 的 SHA-256 与页面结构；PDF 不入库。最新增量构建入口见专题目录，旧全文为固定外部输入。正式发布日期与数据核验状态独立管理。

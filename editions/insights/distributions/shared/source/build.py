@@ -1,4 +1,4 @@
-"""Build pinned Community or COSSI distributions without storing binary inputs in Git."""
+"""Build historical 2026-11-16 Chinese Community v1.4 or COSSI v1.6 distributions."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -59,7 +59,7 @@ def main():
     args = parser.parse_args()
     # Do not create directories or artifacts for a planned language.
     if args.language == 'en':
-        parser.error('English is planned; no approved English text, layout, or artifact exists. Build refused.')
+        parser.error('This historical builder supports Chinese v1.4/v1.6 only. Use shared/annual-changes/v1/build.py for current COSSI English; Community English remains planned.')
     if not args.community_baseline or not args.output:
         parser.error('--community-baseline and --output are required for an available build')
     specs = json.loads((SOURCE / 'input-materials.json').read_text())

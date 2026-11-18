@@ -1,0 +1,34 @@
+{
+  "snapshot_of": "cossi/en/edition.json",
+  "source_commit": "26371533b9bad4a73dd03e15a19b60ba3bd30328",
+  "relative_paths_resolve_from_original_location": true,
+  "configuration": {
+    "schema_version": 1,
+    "report_year": 2026,
+    "content_scope": "essential",
+    "distribution_id": "cossi",
+    "display_name": {
+      "zh": "COSSI 版",
+      "en": "COSSI Edition"
+    },
+    "institution_abbreviation": "CCOSI",
+    "logo_order": [
+      "ccosi",
+      "singularity"
+    ],
+    "pdf_in_repository": false,
+    "language": "en",
+    "source_language": "zh-CN",
+    "source_content_id": "gosd-2026-essential-body-v1.4",
+    "source_distribution_config": "../zh-CN/edition.json",
+    "translation_status": "planned",
+    "editorial_status": "not_started",
+    "publication_status": "not_scheduled",
+    "publication_date": null,
+    "artifact_version": null,
+    "approved_artifact": null,
+    "physical_pages": null,
+    "reviewed_by": null,
+    "reviewed_on": null
+  }
+}

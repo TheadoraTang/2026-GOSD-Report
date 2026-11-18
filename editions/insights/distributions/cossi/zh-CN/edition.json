@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "report_year": 2026,
   "content_scope": "essential",
   "distribution_id": "cossi",
@@ -9,13 +9,13 @@
   },
   "institution_abbreviation": "CCOSI",
   "language": "zh-CN",
-  "content_id": "gosd-2026-essential-body-v1.4",
-  "artifact_version": "1.6",
+  "content_id": "gosd-2026-essential-content-v1.7",
+  "artifact_version": "1.7",
   "editorial_status": "accepted_baseline",
   "publication_status": "not_scheduled",
   "publication_date": null,
-  "registered_on": "2026-11-16",
-  "research_verification": "inherited_without_upgrade",
+  "registered_on": "2026-11-18",
+  "research_verification": "inherited_with_explicit_annual_change_boundaries",
   "pdf_in_repository": false,
   "logo_order": [
     "ccosi",
@@ -28,11 +28,12 @@
     "singularity"
   ],
   "approved_artifact": {
-    "source_filename": "GOSD_2026_Essential_Full_Print_v1.6.pdf",
-    "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.6.pdf",
-    "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
-    "bytes": 79296619,
-    "pages": 142,
+    "source_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+    "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+    "sha256": "a0138bc7d4c4e00fc9a29c4587d8b95109fa682654ece5beea30ed521cbeeb41",
+    "bytes": 82529489,
+    "pages": 144,
+    "page_format": "A4 portrait",
     "in_repository": false,
     "public_download_url": null
   },
@@ -45,19 +46,25 @@
       6
     ],
     "contents": 9,
-    "body_start": 23,
-    "body_end": 140,
-    "inside_back_cover": 141,
-    "back_cover": 142
+    "annual_changes": [
+      13,
+      14
+    ],
+    "body_start": 25,
+    "body_end": 142,
+    "annual_changes_evidence": 140,
+    "inside_back_cover": 143,
+    "back_cover": 144
   },
   "printed_pages": {
-    "frontmatter": "i—xix",
+    "frontmatter": "i—xxi",
+    "annual_changes": "xi—xii",
     "body": "1—118"
   },
   "build": {
-    "entry": "../../shared/source/build.py",
-    "source_content": "../../shared/content-baseline.json",
-    "frontmatter": "../../shared/source/frontmatter",
+    "entry": "../../shared/annual-changes/v1/build.py",
+    "source_content": "../../shared/content-2026-11-18.json",
+    "mode": "incremental_from_pinned_external_full_pdf",
     "output_is_byte_identical_to_approved": false
   },
   "contact": {
@@ -65,5 +72,6 @@
     "name_zh": "王伟",
     "affiliation_zh": "华东师范大学数据学院",
     "email": "wwang@dase.ecnu.edu.cn"
-  }
+  },
+  "review": "../../../reviews/2026-11-18-bilingual-annual-changes.md"
 }

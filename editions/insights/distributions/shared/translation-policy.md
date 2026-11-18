@@ -1,6 +1,6 @@
 # 英文版与跨版本同步
 
-当前状态：筹备中。本文是后续执行规范，不是英文报告正文，也不表示翻译已经完成。
+当前状态（2026-11-18）：COSSI 英文全文 v0.6 已完成编辑评审并获作者接受；Community 英文仍为 planned。本文继续作为跨语言维护规范，当前成果与证据见 [双语专题及合稿记录](../../reviews/2026-11-18-bilingual-annual-changes.md)。
 
 ## 共同正文先行
 
@@ -24,7 +24,7 @@
 
 [术语起始表](terminology.json)仅整理已有获批文本的名称及状态，供翻译使用。COSSI Edition和Community Edition是发行标签；CCOSI仍指专委会，不为COSSI虚构机构英文全称。
 
-新增专委会介绍采用`CAST UN Consultative Committee on Open Source Innovation (CCOSI)`。旧版共同致谢仍有`CAST Advisory Committee on Open Source Innovation`这一历史英文表述；英文版制作时须按最新版机构介绍统一核对，并记录原文差异，不在冻结的中文成品中静默替换。
+新增专委会介绍采用`CAST UN Consultative Committee on Open Source Innovation (CCOSI)`。旧版共同致谢仍有`CAST Advisory Committee on Open Source Innovation`这一历史英文表述；英文版后续修订仍须按最新版机构介绍核对，并记录原文差异，不在冻结的中文成品中静默替换。
 
 秘书长联系方式保持：王伟，华东师范大学数据学院，wwang@dase.ecnu.edu.cn。英文单位和职务措辞以实际确认的正式表达为准，不根据中文自行加头衔。封面Logo原则上复用原标识；需要英文专用组合时另行记录版式评审。
 

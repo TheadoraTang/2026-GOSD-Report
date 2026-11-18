@@ -1,0 +1,57 @@
+{
+  "content_id": "gosd-2026-essential-content-v1.7",
+  "content_scope": "essential",
+  "source_language": "zh-CN",
+  "main_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "previous_content_manifest": "content-baseline.json",
+  "shared_annual_changes": "annual-changes/v1/manifest.json",
+  "change": "Eight shared annual-change observations; language-specific page design, transitions, contents and navigation. Chinese appendix p.116 adds an evidence index.",
+  "language_layouts": {
+    "zh-CN": {
+      "config": "../cossi/zh-CN/edition.json",
+      "artifact": {
+        "source_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+        "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+        "sha256": "a0138bc7d4c4e00fc9a29c4587d8b95109fa682654ece5beea30ed521cbeeb41",
+        "bytes": 82529489,
+        "pages": 144,
+        "page_format": "A4 portrait",
+        "in_repository": false,
+        "public_download_url": null
+      },
+      "body_printed_range": [
+        1,
+        118
+      ]
+    },
+    "en": {
+      "config": "../cossi/en/edition.json",
+      "artifact": {
+        "source_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+        "export_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+        "sha256": "3e1d9e825610c95088f4ac7860bb9bb27faf478a3d30d538a6e99ab8afaea0c8",
+        "bytes": 19162626,
+        "pages": 158,
+        "page_format": "A3 portrait",
+        "in_repository": false,
+        "public_download_url": null
+      },
+      "body_printed_range": [
+        1,
+        129
+      ]
+    }
+  },
+  "synchronization": {
+    "cossi_zh-CN": "accepted",
+    "cossi_en": "accepted",
+    "community_zh-CN": "frozen v1.4; annual changes not yet integrated",
+    "community_en": "planned"
+  },
+  "equivalence": "Shared research and eight-story data, not page-by-page translation or current PDF pixel equivalence. The 118-page identity record only describes the 2026-11-16 Chinese pair.",
+  "source_granularity": "This increment stores the complete editable insert, its data and integration changes. Existing complete PDFs are pinned external build inputs; this is not a new from-scratch source archive of all English chapters.",
+  "evidence_status": "Author-approved narrative and layouts; inherited coverage, license and unresolved data limitations remain."
+}

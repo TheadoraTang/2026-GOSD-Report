@@ -1,20 +1,18 @@
 # 2026-GOSD-Report
 2026-Global-Open-Source-Development-Report 学术风格重构版
 
-## 当前发行版本（2026年11月16日）
+## 当前发行版本（2026年11月18日）
 
-**[COSSI／Community 双版本入口](editions/insights/distributions/README.md)**。精要版正文与证据共用，发行前置信息和语言状态分别管理：
+**[COSSI／Community 发行入口](editions/insights/distributions/README.md)**。COSSI 中英文新增“八大变化”专题，并已完成全文整合、目录和导航联动。
 
-| 版本 | 定位与封面 | 中文基线 | 英文版 |
-| --- | --- | --- | --- |
-| [COSSI](editions/insights/distributions/cossi/zh-CN/README.md) | 中国科协牵头；CCOSI、奇点两个Logo | v1.6，142页 | 筹备中 |
-| [Community](editions/insights/distributions/community/zh-CN/README.md) | 社区与机构共建；此前X-lab、奇点、CCOSI、开源社四Logo版 | v1.4，140页 | 筹备中 |
+| 版本 | 中文 | 英文 |
+| --- | --- | --- |
+| COSSI：中国科协牵头，CCOSI、奇点两 Logo | [v1.7，144 页，A4](editions/insights/distributions/cossi/zh-CN/README.md) | [v0.6，158 页，A3](editions/insights/distributions/cossi/en/README.md) |
+| Community：X-lab、奇点、CCOSI、开源社四 Logo 共建 | [保留 v1.4，140 页](editions/insights/distributions/community/zh-CN/README.md) | 筹备中 |
 
-COSSI为作者指定的发行版名，机构正式缩写仍为CCOSI。两版正文印刷页1—118逐页一致，差异位于封面和前置编排。当前中文成品已经作者接受；正式发布日期与英文版完成时间尚未确定，数据核验状态沿用原报告。
+[双语专题与共同数据](editions/insights/distributions/shared/annual-changes/v1/README.md) · [注册表](editions/insights/distributions/registry.json) · [本次批准记录](editions/insights/reviews/2026-11-18-bilingual-annual-changes.md)
 
-[版本注册表](editions/insights/distributions/registry.json) · [共同正文基线](editions/insights/distributions/shared/content-baseline.json) · [构建入口](editions/insights/distributions/shared/source/README.md) · [本轮决定](editions/insights/reviews/2026-11-16-distribution-baselines.md)
-
-PDF仍在仓库外管理；本次提交配置、可编辑源码与证据记录，不部署Web。以下11月9日等记录保留为各阶段历史，不替代上述最新全文入口。
+COSSI 是发行名，CCOSI 是机构缩写。中英文分别设计版式，保留同一研究主线与证据边界；Community 暂未合入本次专题。正式发布日单独管理。PDF、字体和原始附件不入库，本轮不部署网站。以下阶段记录保留历史身份。
 
 ## 精要版独立工作区（2026年11月9日）
 

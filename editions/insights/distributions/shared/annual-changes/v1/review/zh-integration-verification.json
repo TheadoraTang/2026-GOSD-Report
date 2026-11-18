@@ -1,0 +1,140 @@
+{
+  "navigation": {
+    "bookmarks": 127,
+    "links": 242,
+    "internal": 155,
+    "external": 87,
+    "original_links_retained": 208,
+    "original_contents_rows_replaced": 8
+  },
+  "page_preservation": {
+    "inherited_pages": 142,
+    "pixel_identical_pages": 130,
+    "localized_edits": 12,
+    "differences": [
+      {
+        "baseline_physical": 9,
+        "new_physical": 9,
+        "changed_pixels": 8249,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 13,
+        "new_physical": 15,
+        "changed_pixels": 6359,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 14,
+        "new_physical": 16,
+        "changed_pixels": 105,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 15,
+        "new_physical": 17,
+        "changed_pixels": 110,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 16,
+        "new_physical": 18,
+        "changed_pixels": 68,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 17,
+        "new_physical": 19,
+        "changed_pixels": 114,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 18,
+        "new_physical": 20,
+        "changed_pixels": 113,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 19,
+        "new_physical": 21,
+        "changed_pixels": 127,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 20,
+        "new_physical": 22,
+        "changed_pixels": 138,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 21,
+        "new_physical": 23,
+        "changed_pixels": 65,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 119,
+        "new_physical": 121,
+        "changed_pixels": 1373,
+        "outside_authorized_region": 0
+      },
+      {
+        "baseline_physical": 138,
+        "new_physical": 140,
+        "changed_pixels": 97834,
+        "outside_authorized_region": 0
+      }
+    ]
+  },
+  "new_page_fonts": [
+    {
+      "xref": 566,
+      "name": "NOEEGV+NotoSansCJKjp-Bold-Identity-H",
+      "format": "cid",
+      "bytes": 43524
+    },
+    {
+      "xref": 573,
+      "name": "ZAXNGY+NotoSerifCJKjp-Bold-Identity-H",
+      "format": "cid",
+      "bytes": 4332
+    },
+    {
+      "xref": 580,
+      "name": "SAYAFY+NotoSansCJKjp-Regular-Identity-H",
+      "format": "cid",
+      "bytes": 84054
+    },
+    {
+      "xref": 588,
+      "name": "Noto Serif CJK SC Bold",
+      "format": "otf",
+      "bytes": 968832
+    },
+    {
+      "xref": 594,
+      "name": "Noto Sans CJK SC Regular",
+      "format": "otf",
+      "bytes": 908628
+    },
+    {
+      "xref": 600,
+      "name": "Noto Sans CJK SC Bold",
+      "format": "otf",
+      "bytes": 911808
+    }
+  ],
+  "source_attachments": [
+    "Baseline_GOSD_2026_Full_Print_v1.4_Assembly_Source.zip",
+    "GOSD_2026_Full_Print_v1.5_Assembly_Source.zip",
+    "GOSD_2026_v1.6_Cover_Alignment_Source.zip",
+    "COSSI_ZH_v1.7_Assembly_Record.json",
+    "Annual_Changes_v0.5_Evidence_and_Source.zip"
+  ],
+  "version": "COSSI zh-CN v1.7",
+  "pages": 144,
+  "sha256": "a0138bc7d4c4e00fc9a29c4587d8b95109fa682654ece5beea30ed521cbeeb41",
+  "bytes": 82529489,
+  "errors": [],
+  "passed": true
+}

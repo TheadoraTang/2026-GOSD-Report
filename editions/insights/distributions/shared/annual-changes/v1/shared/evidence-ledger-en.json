@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "source": "GitHub Octoverse 2026",
+    "period": "External reporting years: 12 months ending 30 September; public and private repositories.",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "boundary": "Concurrent changes do not identify AI’s causal contribution. Four event types have independent chart scales."
+  },
+  {
+    "id": 2,
+    "source": "GOSD §2.5; Hugging Face, State of Open Models: Summer 2026",
+    "period": "Code: Q2 2025–Q2 2026. Models and datasets: January–August 2026, including post-period observations.",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "boundary": "Platform totals and geolocated publisher samples are distinct. HF growth is computed from rounded totals; code growth is reproduced as reported."
+  },
+  {
+    "id": 3,
+    "source": "GOSD §2.1, compiled regional comparison series",
+    "period": "2025 and 2026 report years, July–June.",
+    "url": null,
+    "boundary": "The six-country group comprises Brazil, Indonesia, Vietnam, Egypt, the Philippines and South Africa; it excludes China and India and does not represent the whole Global South."
+  },
+  {
+    "id": 4,
+    "source": "GOSD §2.2, compiled regional contribution series",
+    "period": "Report years 2022–2026; unit: OpenRank.",
+    "url": null,
+    "boundary": "Distinct from the calendar-year comparison and the GitHub-only country table. The crossover does not establish overall national leadership."
+  },
+  {
+    "id": 5,
+    "source": "Hangzhou Open Source Ecosystem Panorama Report, July 2026, pp. 3 and 20",
+    "period": "HF institutional publisher snapshot: 17 July 2026, after the main period.",
+    "url": null,
+    "boundary": "The five cities are Beijing, Shanghai, Shenzhen, Hangzhou and Hefei. Downloads are not unique users. Derivatives are directly linked models. Developer and model rankings use different metrics and samples."
+  },
+  {
+    "id": 6,
+    "source": "OpenShare Global Initiator monthly boards; GOSD §3.2",
+    "period": "February, March and June 2026; the report also records the March–June lead.",
+    "url": "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Initiator&timeType=month&time=2026-03&search=&page=1",
+    "boundary": "Huawei leads from March through June. Microsoft remains first and Huawei second for the aggregate main-period ranking."
+  },
+  {
+    "id": 7,
+    "source": "OpenShare Global Foundation monthly boards; GOSD §3.3",
+    "period": "May–July 2025; the June crossover precedes the main period.",
+    "url": "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Foundation&timeType=month&time=2025-06&search=&page=1",
+    "boundary": "Linux Foundation and sub-foundations are recombined using 14 current tags. Tags may overlap, the sum is not repository-deduplicated, and the ranking is not a governance-quality assessment."
+  },
+  {
+    "id": 8,
+    "source": "GOSD §4.1; antgroup/agentic-ai-landscape pinned at e330d75ea4ca314bc81f6868df63425c8acca5e3",
+    "period": "Snapshot: 27 September 2026, after the main period. Creation cohort begins 1 January 2025.",
+    "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/landscape/data/agentic-ai-projects.csv",
+    "boundary": "48 of 86 repositories = 55.8%. This is a creation-date share, not replacement of the 2025 report’s project list; forks and migrations were not independently resolved."
+  }
+]

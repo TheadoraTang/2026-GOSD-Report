@@ -1,0 +1,2 @@
+# Preserve byte-identical upstream CSV snapshots, including their final blank line.
+shared/evidence/*.csv whitespace=-blank-at-eof

@@ -1,0 +1,298 @@
+{
+  "registered_on": "2026-11-18",
+  "base_commit": "26371533b9bad4a73dd03e15a19b60ba3bd30328",
+  "scope": "Bilingual annual-change source registration and complete PDF reconstruction; no data refresh or web deployment.",
+  "checks": [
+    {
+      "command": "python editions/insights/distributions/shared/annual-changes/v1/check_data.py",
+      "passed": true,
+      "output": "PASS: two languages × eight stories; shared input hashes; regional series; six monthly snapshots; 48/86 repository creation cohort.\nScope: archived-data reconciliation, not a new upstream data audit or causal test."
+    },
+    {
+      "command": "python editions/insights/distributions/check_registry.py",
+      "passed": true,
+      "output": "Distribution registry: PASS (6428 checks)\n  community: zh-CN v1.4 / 140 pages; en=planned\n  cossi: zh-CN v1.7 / 144 pages; en=accepted_baseline\n  shared body: language-specific pagination; historical 118-page identity retained pages"
+    },
+    {
+      "command": "python editions/insights/scripts/check_sources.py",
+      "passed": true,
+      "output": "PASS: 379 edition files; 12 insights, 10 outlook slots, 10 recommendation slots; references and repository exclusion rules valid."
+    },
+    {
+      "command": "python brand/osdgs/v2.0/source/verify_assets.py",
+      "passed": true,
+      "output": "PASS: 131 exact approved SVGs; ten node identities; four-pillar/ten-dimension registry"
+    },
+    {
+      "command": "python brand/osdgs/identity/v0.1/source/verify_assets.py",
+      "passed": true,
+      "output": "PASS: 290 approved visual files; identical brand registry and seven masters; no PDF/font binaries"
+    },
+    {
+      "command": "git diff --check",
+      "passed": true,
+      "output": ""
+    },
+    {
+      "command": "git diff --cached --check",
+      "passed": true,
+      "output": "Staged text checked; archived upstream CSV preserves its original trailing blank line via a scoped whitespace attribute."
+    }
+  ],
+  "reconstruction": {
+    "zh-CN": {
+      "language": "zh-CN",
+      "status": "source_reconstruction_verified",
+      "approved_artifact": {
+        "source_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+        "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+        "sha256": "a0138bc7d4c4e00fc9a29c4587d8b95109fa682654ece5beea30ed521cbeeb41",
+        "bytes": 82529489,
+        "pages": 144,
+        "page_format": "A4 portrait",
+        "in_repository": false,
+        "public_download_url": null
+      },
+      "rebuilt": {
+        "filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+        "sha256": "94009c5fc3324006042c2f6215bda9a35dddbd485f3dd6ae663b92023a854aec",
+        "bytes": 82425081
+      },
+      "approved_pdf_bytes_identical": false,
+      "source_data_sha256": "de5601591fb62d8962281bb2b20166a053e59cfbf4e562020c72534254929e0c",
+      "note": "Validation compares page content, geometry, folios and navigation against the pinned input. Generated PDF serialization and source attachments may differ from the approved PDF.",
+      "qa_summary": {
+        "navigation": {
+          "bookmarks": 127,
+          "links": 242,
+          "internal": 155,
+          "external": 87,
+          "original_links_retained": 208,
+          "original_contents_rows_replaced": 8
+        },
+        "page_preservation": {
+          "inherited_pages": 142,
+          "pixel_identical_pages": 130,
+          "localized_edits": 12,
+          "differences": [
+            {
+              "baseline_physical": 9,
+              "new_physical": 9,
+              "changed_pixels": 8249,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 13,
+              "new_physical": 15,
+              "changed_pixels": 6359,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 14,
+              "new_physical": 16,
+              "changed_pixels": 105,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 15,
+              "new_physical": 17,
+              "changed_pixels": 110,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 16,
+              "new_physical": 18,
+              "changed_pixels": 68,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 17,
+              "new_physical": 19,
+              "changed_pixels": 114,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 18,
+              "new_physical": 20,
+              "changed_pixels": 113,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 19,
+              "new_physical": 21,
+              "changed_pixels": 127,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 20,
+              "new_physical": 22,
+              "changed_pixels": 138,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 21,
+              "new_physical": 23,
+              "changed_pixels": 65,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 119,
+              "new_physical": 121,
+              "changed_pixels": 1373,
+              "outside_authorized_region": 0
+            },
+            {
+              "baseline_physical": 138,
+              "new_physical": 140,
+              "changed_pixels": 97834,
+              "outside_authorized_region": 0
+            }
+          ]
+        },
+        "version": "COSSI zh-CN v1.7",
+        "pages": 144,
+        "sha256": "94009c5fc3324006042c2f6215bda9a35dddbd485f3dd6ae663b92023a854aec",
+        "bytes": 82425081,
+        "errors": [],
+        "passed": true
+      }
+    },
+    "en": {
+      "language": "en",
+      "status": "source_reconstruction_verified",
+      "approved_artifact": {
+        "source_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+        "export_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+        "sha256": "3e1d9e825610c95088f4ac7860bb9bb27faf478a3d30d538a6e99ab8afaea0c8",
+        "bytes": 19162626,
+        "pages": 158,
+        "page_format": "A3 portrait",
+        "in_repository": false,
+        "public_download_url": null
+      },
+      "rebuilt": {
+        "filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+        "sha256": "accd671fb72402b8e2d340cb4f52c45fb4f2b43da70049681ea2afeafacf8648",
+        "bytes": 19162628
+      },
+      "approved_pdf_bytes_identical": false,
+      "source_data_sha256": "de5601591fb62d8962281bb2b20166a053e59cfbf4e562020c72534254929e0c",
+      "note": "Validation compares page content, geometry, folios and navigation against the pinned input. Generated PDF serialization and source attachments may differ from the approved PDF.",
+      "qa_summary": {
+        "version": "0.6",
+        "date": "2026-11-18",
+        "pages": 158,
+        "size": "A3 portrait, 297 × 420 mm",
+        "front_matter_folios": "i–xxvii",
+        "body_folios": "1–129",
+        "body_start_physical_page": 29,
+        "retained_blank_duplex_folios": [
+          18,
+          40,
+          108
+        ],
+        "insert_physical_pages": [
+          14,
+          15
+        ],
+        "insert_folios": [
+          "xiii",
+          "xiv"
+        ],
+        "bookmarks": 118,
+        "total_links": 151,
+        "preserved_original_links_checked": 124,
+        "body_text_checks": "130 pages unchanged, including back cover",
+        "visual_comparison": "156 original pages pixel-identical outside declared edit areas",
+        "insert_visual_comparison": [
+          {
+            "page": 1,
+            "antialias_pixels": 13,
+            "maximum_channel_delta": 7,
+            "text_unchanged": true
+          },
+          {
+            "page": 2,
+            "antialias_pixels": 5,
+            "maximum_channel_delta": 7,
+            "text_unchanged": true
+          }
+        ],
+        "unembedded_used_fonts": [],
+        "inputs_unchanged": true,
+        "pdf_sha256": "accd671fb72402b8e2d340cb4f52c45fb4f2b43da70049681ea2afeafacf8648"
+      }
+    }
+  },
+  "approved_visual_comparison": [
+    {
+      "language": "zh-CN",
+      "physical_page": 9,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "zh-CN",
+      "physical_page": 13,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "zh-CN",
+      "physical_page": 14,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "zh-CN",
+      "physical_page": 15,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "zh-CN",
+      "physical_page": 121,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "zh-CN",
+      "physical_page": 140,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "en",
+      "physical_page": 10,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "en",
+      "physical_page": 13,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "en",
+      "physical_page": 14,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "en",
+      "physical_page": 15,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    },
+    {
+      "language": "en",
+      "physical_page": 16,
+      "approved_vs_rebuilt_pixels_identical_at_72dpi": true
+    }
+  ],
+  "rejected_invalid_builds": [
+    {
+      "case": "wrong baseline digest",
+      "rejected": true,
+      "created_output": false,
+      "message": "Build failed: Wrong or missing zh-CN baseline; use the SHA-256 in manifest.json"
+    },
+    {
+      "case": "unbuilt Community English",
+      "rejected": true,
+      "created_output": false,
+      "message": "usage: build.py [-h] --distribution {cossi,community} --language {zh-CN,en}\n                [--community-baseline COMMUNITY_BASELINE] [--output OUTPUT]\n                [--assets-dir ASSETS_DIR]\nbuild.py: error: This historical builder supports Chinese v1.4/v1.6 only. Use shared/annual-changes/v1/build.py for current COSSI English; Community English remains planned."
+    }
+  ]
+}

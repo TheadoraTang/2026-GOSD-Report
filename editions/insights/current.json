@@ -1,10 +1,10 @@
 {
   "edition": "2026 全球开源发展报告·精要版",
   "edition_id": "insights",
-  "management_version": "1.1.0",
-  "registered_on": "2026-11-16",
+  "management_version": "2.0.0",
+  "registered_on": "2026-11-18",
   "research_baseline_commit": "fff392e957bab9fb6d89d49dea712af47484efaa",
-  "repository_base_commit": "019af2861a61fded40e56e10340392198cb06815",
+  "repository_base_commit": "26371533b9bad4a73dd03e15a19b60ba3bd30328",
   "brand_version": "2.0.0",
   "brand_application_version": "0.6.0",
   "target_pages_approx": 100,
@@ -59,8 +59,8 @@
   "current_full_prints": {
     "cossi": {
       "language": "zh-CN",
-      "version": "1.6",
-      "pages": 142,
+      "version": "1.7",
+      "pages": 144,
       "config": "distributions/cossi/zh-CN/edition.json"
     },
     "community": {
@@ -68,7 +68,13 @@
       "version": "1.4",
       "pages": 140,
       "config": "distributions/community/zh-CN/edition.json"
+    },
+    "cossi_en": {
+      "language": "en",
+      "version": "0.6",
+      "pages": 158,
+      "config": "distributions/cossi/en/edition.json"
     }
   },
-  "review": "reviews/2026-11-16-distribution-baselines.md"
+  "review": "reviews/2026-11-18-bilingual-annual-changes.md"
 }

@@ -1,0 +1,209 @@
+{
+  "version": "COSSI zh-CN v1.7",
+  "insert_version": "v0.5",
+  "date": "2026-11-18",
+  "status": "integrated review version; new polishing and assembly pending review",
+  "baseline": {
+    "file": "GOSD_2026_Essential_COSSI_zh-CN_v1.6.pdf",
+    "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+    "pages": 142
+  },
+  "output_pages": 144,
+  "placement": "after 从发现到行动, before 一套共同的观察语言",
+  "new_physical_pages": [
+    13,
+    14
+  ],
+  "new_printed_pages": [
+    "xi",
+    "xii"
+  ],
+  "body_printed_pages": "1—118",
+  "body_physical_pages": [
+    25,
+    142
+  ],
+  "appendix_evidence_printed_page": 116,
+  "appendix_evidence_physical_page": 140,
+  "contents_physical_page": 9,
+  "frontmatter_printed_pages": "i—xxi",
+  "changed_existing_pages": [
+    9,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    119,
+    138
+  ],
+  "changed_existing_pages_explanation": "Physical pages of v1.6. Page 9 contents; 13 transition and folio; 14—21 folios; 119 appendix guide; 138 formerly blank evidence page.",
+  "folio_changes": [
+    {
+      "old_physical": 13,
+      "new_physical": 15,
+      "before": "xi",
+      "after": "xiii"
+    },
+    {
+      "old_physical": 14,
+      "new_physical": 16,
+      "before": "xii",
+      "after": "xiv"
+    },
+    {
+      "old_physical": 15,
+      "new_physical": 17,
+      "before": "xiii",
+      "after": "xv"
+    },
+    {
+      "old_physical": 16,
+      "new_physical": 18,
+      "before": "xiv",
+      "after": "xvi"
+    },
+    {
+      "old_physical": 17,
+      "new_physical": 19,
+      "before": "xv",
+      "after": "xvii"
+    },
+    {
+      "old_physical": 18,
+      "new_physical": 20,
+      "before": "xvi",
+      "after": "xviii"
+    },
+    {
+      "old_physical": 19,
+      "new_physical": 21,
+      "before": "xvii",
+      "after": "xix"
+    },
+    {
+      "old_physical": 20,
+      "new_physical": 22,
+      "before": "xviii",
+      "after": "xx"
+    },
+    {
+      "old_physical": 21,
+      "new_physical": 23,
+      "before": "xix",
+      "after": "xxi"
+    }
+  ],
+  "contents_entries": [
+    {
+      "label": "关于本报告・编委会",
+      "folio": "i—ii",
+      "target_physical": 3
+    },
+    {
+      "label": "开源创新专委会介绍",
+      "folio": "iii—iv",
+      "target_physical": 5
+    },
+    {
+      "label": "序言",
+      "folio": "v—vi",
+      "target_physical": 7
+    },
+    {
+      "label": "摘要・三种观察・行动",
+      "folio": "viii—x",
+      "target_physical": 10
+    },
+    {
+      "label": "2025—2026：全球开源的八大变化",
+      "folio": "xi—xii",
+      "target_physical": 13
+    },
+    {
+      "label": "研究框架・方法采用",
+      "folio": "xiii—xiv",
+      "target_physical": 15
+    },
+    {
+      "label": "标准化基础与在研进展",
+      "folio": "xv—xvi",
+      "target_physical": 17
+    },
+    {
+      "label": "阅读路径・综合图指南",
+      "folio": "xvii—xviii",
+      "target_physical": 19
+    },
+    {
+      "label": "宣言全文与结构",
+      "folio": "xix—xxi",
+      "target_physical": 21
+    }
+  ],
+  "bridge": {
+    "physical_page": 15,
+    "text": "上述变化涉及不同对象与指标，需要共同的观察语言。OSDGs明确发展方向，OSDI将目标转化为可观察维度；评价数据结构保留对象、期间、来源与版本，支持解释和复核。"
+  },
+  "appendix_guide_changes": [
+    {
+      "before": "17",
+      "after": "17—18",
+      "rect": [
+        65.19734191894531,
+        596.6123657226562,
+        76.36534118652344,
+        606.0767822265625
+      ]
+    },
+    {
+      "before": "模型生态方法",
+      "after": "模型生态与年度变化",
+      "rect": [
+        116.2208251953125,
+        597.9279174804688,
+        183.16934204101562,
+        609.0859985351562
+      ]
+    },
+    {
+      "before": "供给、派生、开放条件与证据范围",
+      "after": "供给、派生、开放条件与跨期比较",
+      "rect": [
+        116.2208251953125,
+        619.6034545898438,
+        250.71548461914062,
+        628.5697631835938
+      ]
+    },
+    {
+      "before": "115",
+      "after": "115—116",
+      "rect": [
+        528.0296630859375,
+        603.1793823242188,
+        544.2526245117188,
+        612.3449096679688
+      ]
+    }
+  ],
+  "navigation": {
+    "bookmarks": 127,
+    "links": 242,
+    "internal_links": 155,
+    "external_links": 87
+  },
+  "pending": [
+    "2025 and 2026 landscape membership turnover has not been calculated; 55.8% is explicitly a repository-creation cohort share.",
+    "Existing report verification limitations are inherited, not certified by this layout integration."
+  ],
+  "review_focus": [
+    "continuity from executive summary to annual changes and common framework",
+    "A4 readability of the eight panels",
+    "new appendix source index and navigation"
+  ]
+}

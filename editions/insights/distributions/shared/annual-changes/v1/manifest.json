@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "registered_on": "2026-11-18",
+  "status": "author_approved",
+  "content_id": "gosd-2026-essential-content-v1.7",
+  "main_window": {
+    "start": "2025-07-01",
+    "end": "2026-06-30"
+  },
+  "shared_data": "shared/chart-data.json",
+  "shared_data_sha256": "de5601591fb62d8962281bb2b20166a053e59cfbf4e562020c72534254929e0c",
+  "languages": {
+    "zh-CN": {
+      "insert_version": "0.5",
+      "full_version": "1.7",
+      "content": "zh-CN/content.json",
+      "integration": "integration/zh-CN/assemble.py",
+      "pages": 2,
+      "full_pages": 144,
+      "physical_pages": [
+        13,
+        14
+      ],
+      "folios": [
+        "xi",
+        "xii"
+      ]
+    },
+    "en": {
+      "insert_version": "0.1",
+      "full_version": "0.6",
+      "content": "en/content.json",
+      "integration": "integration/en/integrate.py",
+      "pages": 2,
+      "full_pages": 158,
+      "physical_pages": [
+        14,
+        15
+      ],
+      "folios": [
+        "xiii",
+        "xiv"
+      ]
+    }
+  },
+  "inputs": {
+    "zh-CN": {
+      "filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.6.pdf",
+      "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+      "pages": 142
+    },
+    "en": {
+      "filename": "GOSD_2026_COSSI_EN_Full_Print_v0.5.pdf",
+      "sha256": "362cf50547b16200495c6804c3e8dee6a476918fadb89856f817bfa39f5c7298",
+      "pages": 156
+    }
+  },
+  "approved_full_artifacts": {
+    "zh-CN": {
+      "source_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+      "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.7.pdf",
+      "sha256": "a0138bc7d4c4e00fc9a29c4587d8b95109fa682654ece5beea30ed521cbeeb41",
+      "bytes": 82529489,
+      "pages": 144,
+      "page_format": "A4 portrait",
+      "in_repository": false,
+      "public_download_url": null
+    },
+    "en": {
+      "source_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+      "export_filename": "GOSD_2026_COSSI_EN_Full_Print_v0.6.pdf",
+      "sha256": "3e1d9e825610c95088f4ac7860bb9bb27faf478a3d30d538a6e99ab8afaea0c8",
+      "bytes": 19162626,
+      "pages": 158,
+      "page_format": "A3 portrait",
+      "in_repository": false,
+      "public_download_url": null
+    }
+  },
+  "english_background": {
+    "sha256": "8eda882629751ee36f2f2f87f75e76b319a9e2f67bcc96e0c2b5e6779093c9c9",
+    "source_input": "en",
+    "xref_hint": 318
+  },
+  "publication_date": null,
+  "pdf_in_repository": false,
+  "pending": [
+    "2025/2026 landscape list replacement rate not calculated; 55.8% is repository creation share.",
+    "LF family uses 14 current tags and is not repository-deduplicated.",
+    "Existing licensing and platform-coverage verification not upgraded by editorial approval."
+  ],
+  "review": "../../../../reviews/2026-11-18-bilingual-annual-changes.md"
+}

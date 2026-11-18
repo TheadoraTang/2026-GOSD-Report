@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "开发活动与智能体使用",
+    "source": "GitHub Octoverse 2026；截至各年9月30日的12个月，含公开与私有仓库。",
+    "boundary": "四组活动分别比较；AI起草PR占比另按2026年3月、9月观察。增长不等于因果贡献。",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+  },
+  {
+    "id": 2,
+    "title": "代码、模型与数据资产",
+    "source": "本报告第27页／图2-13；Hugging Face《State of Open Models: Summer 2026》。",
+    "boundary": "代码为2025Q2—2026Q2；HF为2026年1—8月，含期后。模型与数据增幅由约数计算。",
+    "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+    "printed": 27
+  },
+  {
+    "id": 3,
+    "title": "全球南方参与增长",
+    "source": "本报告第16页及2.1地区比较表；2025、2026报告年度的活跃开发者序列。",
+    "boundary": "六国为巴西、印尼、越南、埃及、菲律宾、南非；与中国、印度分列，不代表全部全球南方。",
+    "printed": 16
+  },
+  {
+    "id": 4,
+    "title": "中国与美国的贡献交叉",
+    "source": "本报告第19页上方地区比较序列；2022—2026报告年度，单位为OpenRank。",
+    "boundary": "不与同页下方自然年序列或GitHub单平台国家榜混算；不据此推导全面领先。",
+    "printed": 19
+  },
+  {
+    "id": 5,
+    "title": "杭州的模型复用位置",
+    "source": "《杭州市开源生态全景报告》（2026年7月），第3、20页；HF快照2026.07.17。",
+    "boundary": "北京、上海、深圳、杭州、合肥的机构发布者样本；累计下载不等于用户数，快照属于期后。"
+  },
+  {
+    "id": 6,
+    "title": "华为与微软的月榜交叉",
+    "source": "OpenShare全球发起方月榜：2026年2、3、6月；本报告第41页补充3—6月轨迹。",
+    "boundary": "3月华为超过微软；主期全年企业榜仍为微软第1、华为第2，月榜与全年榜分别解释。",
+    "url": "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Initiator&timeType=month&time=2026-03&search=&page=1",
+    "printed": 41
+  },
+  {
+    "id": 7,
+    "title": "开放原子与Apache的月榜交叉",
+    "source": "OpenShare全球基金会月榜：2025年5—7月；LF及其子基金会依报告口径汇总。",
+    "boundary": "6月交叉早于主期；LF按14个当前标签回溯相加，标签可重叠，不是仓库去重后的值。",
+    "url": "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Foundation&timeType=month&time=2025-06&search=&page=1",
+    "printed": 44
+  },
+  {
+    "id": 8,
+    "title": "Agent技术全景中的新创建仓库",
+    "source": "本报告第61页；固定全景清单e330d75，观察截至2026.09.27，属期后。",
+    "boundary": "AgentInfra的86个项目中，48个仓库创建于2025年以来：48÷86＝55.8%；不是两版名单更替率。",
+    "url": "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/landscape/data/agentic-ai-projects.csv",
+    "printed": 61
+  }
+]

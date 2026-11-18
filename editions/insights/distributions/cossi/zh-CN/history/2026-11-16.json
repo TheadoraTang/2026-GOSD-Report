@@ -1,0 +1,74 @@
+{
+  "snapshot_of": "cossi/zh-CN/edition.json",
+  "source_commit": "26371533b9bad4a73dd03e15a19b60ba3bd30328",
+  "relative_paths_resolve_from_original_location": true,
+  "configuration": {
+    "schema_version": 1,
+    "report_year": 2026,
+    "content_scope": "essential",
+    "distribution_id": "cossi",
+    "display_name": {
+      "zh": "COSSI 版",
+      "en": "COSSI Edition"
+    },
+    "institution_abbreviation": "CCOSI",
+    "language": "zh-CN",
+    "content_id": "gosd-2026-essential-body-v1.4",
+    "artifact_version": "1.6",
+    "editorial_status": "accepted_baseline",
+    "publication_status": "not_scheduled",
+    "publication_date": null,
+    "registered_on": "2026-11-16",
+    "research_verification": "inherited_without_upgrade",
+    "pdf_in_repository": false,
+    "logo_order": [
+      "ccosi",
+      "singularity"
+    ],
+    "positioning_zh": "中国科协牵头，由开源创新专委会组织相关工作。",
+    "lead_organization_zh": "中国科学技术协会（中国科协）",
+    "co_builders": [
+      "ccosi",
+      "singularity"
+    ],
+    "approved_artifact": {
+      "source_filename": "GOSD_2026_Essential_Full_Print_v1.6.pdf",
+      "export_filename": "GOSD_2026_Essential_COSSI_zh-CN_v1.6.pdf",
+      "sha256": "d43329e97954c8e2eba2392ba5ad437d5c4c8dcb37bd7ba2ede9be5e190ae5b0",
+      "bytes": 79296619,
+      "pages": 142,
+      "in_repository": false,
+      "public_download_url": null
+    },
+    "physical_pages": {
+      "cover": 1,
+      "about_report": 3,
+      "editorial_board": 4,
+      "committee_introduction": [
+        5,
+        6
+      ],
+      "contents": 9,
+      "body_start": 23,
+      "body_end": 140,
+      "inside_back_cover": 141,
+      "back_cover": 142
+    },
+    "printed_pages": {
+      "frontmatter": "i—xix",
+      "body": "1—118"
+    },
+    "build": {
+      "entry": "../../shared/source/build.py",
+      "source_content": "../../shared/content-baseline.json",
+      "frontmatter": "../../shared/source/frontmatter",
+      "output_is_byte_identical_to_approved": false
+    },
+    "contact": {
+      "role_zh": "秘书长",
+      "name_zh": "王伟",
+      "affiliation_zh": "华东师范大学数据学院",
+      "email": "wwang@dase.ecnu.edu.cn"
+    }
+  }
+}

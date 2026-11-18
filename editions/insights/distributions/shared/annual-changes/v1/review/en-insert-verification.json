@@ -1,0 +1,79 @@
+{
+  "version": "English insert v0.1",
+  "date": "2026-11-18",
+  "review_status": "awaiting author review",
+  "approved_content_baseline": "Chinese eight-shift insert v0.5, integrated in Chinese full report v1.7",
+  "pdf": "GOSD_2026_COSSI_EN_Eight_Shifts_v0.1_Review.pdf",
+  "bytes": 1365653,
+  "sha256": "a44ddb30f4b0caa337c8d83c082d72c0d0ab3aa6f4333ff08e6faa1da10672c9",
+  "pages": [
+    {
+      "page": 1,
+      "size_pt": [
+        841.8900146484375,
+        1190.550048828125
+      ],
+      "text_spans_within_page": true,
+      "all_four_analysis_bodies_complete": true,
+      "fonts": [
+        {
+          "name": "QDOBDA+LiberationSerif-Bold",
+          "embedded_bytes": 14593
+        },
+        {
+          "name": "JPYVBG+NotoSans-Regular",
+          "embedded_bytes": 28201
+        },
+        {
+          "name": "FZTPTP+NotoSans-Bold",
+          "embedded_bytes": 24389
+        }
+      ],
+      "min_font_pt": 7.770899772644043,
+      "link_rectangles": 3,
+      "source_urls": [
+        "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+        "https://huggingface.co/blog/state-of-open-models-summer-2026"
+      ]
+    },
+    {
+      "page": 2,
+      "size_pt": [
+        841.8900146484375,
+        1190.550048828125
+      ],
+      "text_spans_within_page": true,
+      "all_four_analysis_bodies_complete": true,
+      "fonts": [
+        {
+          "name": "QDOBDA+LiberationSerif-Bold",
+          "embedded_bytes": 14593
+        },
+        {
+          "name": "JPYVBG+NotoSans-Regular",
+          "embedded_bytes": 28201
+        },
+        {
+          "name": "FZTPTP+NotoSans-Bold",
+          "embedded_bytes": 24389
+        }
+      ],
+      "min_font_pt": 8.169400215148926,
+      "link_rectangles": 4,
+      "source_urls": [
+        "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Initiator&timeType=month&time=2026-03&search=&page=1",
+        "https://open-share.com/insight/open-leaderboard?scope=Global&unit=Foundation&timeType=month&time=2025-06&search=&page=1",
+        "https://github.com/X-lab2017/2026-Global-Open-Source-Development-Report/blob/c51e3441361407b68f10b339d97eff288319b503/preview/content/landscape/data/agentic-ai-projects.csv"
+      ]
+    }
+  ],
+  "numeric_checks": "passed; counts unchanged; units and rounding converted explicitly",
+  "code_repo_growth": "22.3% reproduced as reported; not recomputed from rounded 371M / 454M totals",
+  "tex_layout_warnings": 0,
+  "missing_glyphs": 0,
+  "english_full_report": {
+    "name": "GOSD_2026_COSSI_EN_Full_Print_v0.5.pdf",
+    "sha256": "362cf50547b16200495c6804c3e8dee6a476918fadb89856f817bfa39f5c7298",
+    "status": "byte-identical to input; not merged or modified"
+  }
+}
